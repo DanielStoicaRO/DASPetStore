@@ -1,0 +1,105 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <div th:replace="fragments/head-css :: head-css"/>
+    <title>Pet add</title>
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: snow" action="/admin" method="get">
+    <div class="container-fluid">
+
+        <a class="navbar-brand" href="#">
+            <img src="/images/logo.png" alt="" width="62px" height="62px">
+        </a>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                       data-bs-toggle="dropdown" aria-expanded="false"
+                       style="color: darkcyan; font-family: Garamond; font-size: 18px">
+                        Pets
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="/pets/add" style="color: darkcyan; font-family: Garamond">Add
+                            pet</a></li>
+                        <li><a class="dropdown-item" href="/pets" style="color: darkcyan; font-family: Garamond">View
+                            pets</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="/donations"
+                       style="color: darkcyan; font-family: Garamond;font-size: 18px">Donations</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/appointments"
+                       style="color: darkcyan;font-family: Garamond;font-size: 18px">Appointments</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/adoptions" style="color: darkcyan;font-family: Garamond;font-size: 18px">Adoptions</a>
+                </li>
+
+                <li class="nav-item active">
+                    <a class="nav-link" href="/logout"
+                       style="color: indianred;font-family: Garamond;font-size: 19px;position: absolute; right: 60px">Log
+                        out</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<h2>Add pet</h2>
+
+<form class="row g-3 needs-validation" method="post" novalidate th:action="@{/pets/add}" th:object="${petDto}"
+      enctype="multipart/form-data">
+
+        <div>
+            <label>Photo: </label>
+            <input type="file" name="image" accept="image/png, image/jpeg" />
+        </div>
+
+    <div>
+        <div class="col-md-4 form-group required">
+            <label for="name" class="form-label">Name</label>
+            <input class="form-control" id="name" placeholder="Pet name" required th:field="*{name}" type="text">
+            <div class="invalid-feedback">
+                A pet name can't be empty.
+            </div>
+        </div>
+        <br>
+        <div class="col-md-2 form-group required">
+            <label for="category">Category</label>
+            <br>
+            <select class="custom-select tm-select-accounts" id="category" value="Select category"
+                    th:field="*{category}" required>
+                <option value="" disabled>Select category</option>
+                <option th:each="category : ${T(com.sda.project.model.Category).values()}"
+                        th:value="${category}"
+                        th:text="${category}">
+                </option>
+            </select>
+        </div>
+        <br>
+        <div class="col-md-4 form-group required">
+            <label for="name" class="form-label">Description</label>
+            <input class="form-control" id="description"
+                   th:field="*{description}" type="text">
+        </div>
+    </div>
+    <div class="col-12">
+        <a th:href="@{/pets}">
+            <button class="btn btn-secondary" id="cancel" type="button">Cancel</button>
+        </a>
+        <button class="btn btn-primary" id="save" type="submit">Add pet</button>
+    </div>
+</form>
+
+<div th:replace="fragments/footer-js :: footer-js"/>
+<script th:src="@{/js/validation.js}"></script>
+</body>
+</html>

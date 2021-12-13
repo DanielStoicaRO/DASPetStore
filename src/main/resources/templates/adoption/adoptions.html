@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <div th:replace="fragments/head-css :: head-css"/>
+    <title>Adoption</title>
+</head>
+
+<body>
+<div th:replace="fragments/header-admin :: navbar"/>
+<div class="container-fluid">
+    <div class="container">
+        <table class="table" method="get" th:action="@{/adoptions}" th:object="${adoptions}">
+            <!-- table header -->
+            <thead>
+                <tr>
+                    <th scope="col">Date</th>
+                    <th scope="col">Address</th>
+                    <th scope="col">Social security number</th>
+                    <th scope="col">Pet</th>
+                </tr>
+            </thead>
+
+            <!-- table body -->
+            <tbody>
+                <tr th:each="adoption : ${adoptions}">
+                    <td th:text="${adoption.date}"></td>
+                    <td th:text="${adoption.address}"></td>
+                    <td th:text="${adoption.socialSecurityNumber}"></td>
+                    <td th:text="${adoption.pet.name}"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<div th:replace="fragments/footer-js :: footer-js"/>
+</body>
+
+</html>

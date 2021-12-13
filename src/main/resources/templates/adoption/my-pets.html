@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <div th:replace="fragments/head-css :: head-css"/>
+    <title>Pets</title>
+</head>
+
+<body>
+
+<!-- nav bar -->
+<div th:replace="fragments/header :: navbar"/>
+
+<div class="container-fluid">
+    <div class="container">
+
+        <table class="table" method="get" th:action="@{/my-pets}" th:object="${myPets}">
+            <!-- table header -->
+            <thead>
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Category</th>
+                <th scope="col">Description</th>
+            </tr>
+            </thead>
+            <!-- table body -->
+            <tbody>
+            <tr th:each="petInfo : ${myPets}">
+                <td th:text="${petInfo.name}"></td>
+                <td th:text="${petInfo.category.name()}"></td>
+                <td th:text="${petInfo.description}"></td>
+                <!-- actions -->
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<div th:replace="fragments/footer-js :: footer-js"/>
+</body>
+
+</html>

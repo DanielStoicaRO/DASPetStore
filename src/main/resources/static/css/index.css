@@ -1,0 +1,37 @@
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin:20px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: #8fc4b7;
+    /*opacity: 1.0;*/
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.centered {
+    position: absolute;
+    top: 15%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+}
+
+
+

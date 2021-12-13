@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <div th:replace="fragments/head-css :: head-css"/>
+    <title>Donation</title>
+</head>
+
+<body>
+<div th:replace="fragments/header-admin :: navbar"/>
+<div class="container-fluid">
+    <div class="container">
+        <table class="table" method="get" th:action="@{/donations}" th:object="${donations}">
+            <!-- table header -->
+            <thead>
+            <tr>
+                <th scope="col">Products</th>
+                <th scope="col">Details</th>
+                <th scope="col">User E-mail</th>
+                //TODO sa adaugam si userul sa apara la admin in lista lui de donatii
+            </tr>
+            </thead>
+
+            <!-- table body -->
+            <tbody>
+            <tr th:each="donation : ${donations}">
+                <td th:text="${donation.product}"></td>
+                <td th:text="${donation.details}"></td>
+                <td th:text="${donation.userId}"></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<div th:replace="fragments/footer-js :: footer-js"/>
+</body>
+
+</html>
