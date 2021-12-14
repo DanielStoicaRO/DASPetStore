@@ -1,6 +1,5 @@
 package com.das.project.service;
 
-import com.das.project.AppDAS;
 import com.das.project.dto.AppointmentDto;
 import com.das.project.dto.AppointmentInfo;
 import com.das.project.mapper.AppointmentMapper;
@@ -22,12 +21,12 @@ public class AppointmentService {
 
     @Autowired
     public AppointmentService(AppointmentRepository appointmentRepository,
-                              AppointmentMapper appointmentMapper,
-                              UserService userService) {
+                              AppointmentMapper appointmentMapper, UserService userService) {
         this.appointmentRepository = appointmentRepository;
         this.appointmentMapper = appointmentMapper;
         this.userService = userService;
     }
+
 
     public List<AppointmentDto> findAll() {
         return appointmentRepository.findAll().stream()
@@ -46,7 +45,6 @@ public class AppointmentService {
                 .filter(appointment -> appointment.getUser().equals(user))
                 .map(appointment -> appointmentMapper.mapFromAppointmentToAppointmentInfo(appointment))
                 .collect(Collectors.toList());
+
     }
-
-
 }

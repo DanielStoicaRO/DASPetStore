@@ -7,7 +7,6 @@ import lombok.Setter;
 @Getter
 @Setter
 public class PetInfo {
-
     private String name;
     private Category category;
     private String description;

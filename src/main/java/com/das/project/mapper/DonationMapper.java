@@ -17,27 +17,36 @@ public class DonationMapper {
         this.userMapper = userMapper;
     }
 
-    public Donation mapToDonation(AddDonation addDonation, User user){
-        Donation donation = new Donation();
-        donation.setUser(user);
-        donation.setProduct(addDonation.getProduct());
-        donation.setDetails(addDonation.getDetails());
-        return donation;
+    public Donation mapToDonation(AddDonation addDonationDto, User user) {
+        Donation entity = new Donation();
+        entity.setUser(user);
+        entity.setProduct(addDonationDto.getProduct());
+        entity.setDetails(addDonationDto.getDetails());
+        return entity;
     }
 
-    public AddDonation mapToDonationAddDto(Donation donation){
-        AddDonation addDonation = new AddDonation();
-        addDonation.setUserId(donation.getUser().getId());
-        addDonation.setProduct(donation.getProduct());
-        addDonation.setDetails(donation.getDetails());
-        return addDonation;
+    public AddDonation mapToDonationAddDto(Donation entity) {
+        AddDonation addDonationDto = new AddDonation();
+        addDonationDto.setUserId(entity.getUser().getId());
+        addDonationDto.setEmail(entity.getUser().getEmail());
+        addDonationDto.setProduct(entity.getProduct());
+        addDonationDto.setDetails(entity.getDetails());
+        return addDonationDto;
     }
 
-    public DonationInfo mapFromDonationToDonationInfo(Donation donation){
-        DonationInfo donationInfo = new DonationInfo();
-        donationInfo.setProduct(donation.getProduct());
-        donationInfo.setDetails(donation.getDetails());
-        return donationInfo;
+    public Donation mapFromDonationInfoToDonation(DonationInfo donationInfoDto) {
+        Donation entity = new Donation();
+        entity.setUser(userMapper.mapToUser(donationInfoDto.getUser()));
+        entity.setProduct(donationInfoDto.getProduct());
+        entity.setDetails(donationInfoDto.getDetails());
+        return entity;
+    }
+
+    public DonationInfo mapFromDonationToDonationInfo(Donation donation) {
+        DonationInfo dto = new DonationInfo();
+        dto.setProduct(donation.getProduct());
+        dto.setDetails(donation.getDetails());
+        return dto;
     }
 
 }

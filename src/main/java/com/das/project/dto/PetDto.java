@@ -6,7 +6,6 @@ import lombok.Setter;
 
 import javax.persistence.Transient;
 
-
 @Getter
 @Setter
 public class PetDto {
@@ -20,6 +19,7 @@ public class PetDto {
     private Adoption adoption;
 
     private String photo;
+
 
     public Adoption getAdoption() {
         return adoption;
@@ -36,6 +36,7 @@ public class PetDto {
     public void setPhoto(String photo) {
         this.photo = photo;
     }
+
 
     @Transient
     public String getPhotoImagePath() {

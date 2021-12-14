@@ -1,13 +1,14 @@
 package com.das.project.model;
+
 import lombok.Getter;
 import lombok.Setter;
 
 import javax.persistence.*;
 
-@Entity
-@Table
 @Getter
 @Setter
+@Entity
+@Table
 public class Donation {
 
     @Id
@@ -32,10 +33,10 @@ public class Donation {
     }
 
     @OneToOne(mappedBy = "donation",
-    fetch = FetchType.LAZY)
+            fetch = FetchType.LAZY)
     private Transfer transfer;
 
-    public void addTransfer(Transfer transfer){
+    public void addTransfer(Transfer transfer) {
         this.transfer = transfer;
         transfer.setDonation(this);
     }

@@ -1,5 +1,6 @@
 package com.das.project.model;
 
+
 import lombok.Getter;
 import lombok.Setter;
 
@@ -20,6 +21,9 @@ public class Adoption {
 
     private String socialSecurityNumber;
 
+    // adoption edit form, change user
+    // adoption knows his user
+    // bidirectional many to one
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "user_id")
     private User user;
@@ -36,4 +40,3 @@ public class Adoption {
         this.pet = pet;
     }
 }
-

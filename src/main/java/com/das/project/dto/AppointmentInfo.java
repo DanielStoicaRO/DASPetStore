@@ -15,4 +15,5 @@ public class AppointmentInfo {
     private LocalDateTime date;
     private Set<Pet> pets;
     private User user;
+
 }

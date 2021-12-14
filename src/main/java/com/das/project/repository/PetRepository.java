@@ -12,6 +12,4 @@ public interface PetRepository extends JpaRepository<Pet, Long> {
     Optional<Pet> findByNameIgnoreCase(String name);
 
     Optional<List<Pet>> findByCategory(Category category);
-
-
 }

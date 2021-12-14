@@ -9,9 +9,9 @@ import java.util.HashSet;
 import java.util.Set;
 
 @Entity
-@Table
-@Setter
 @Getter
+@Setter
+@Table
 public class Appointment {
 
     @Id
@@ -32,7 +32,7 @@ public class Appointment {
                     name = "pet_id", referencedColumnName = "id"))
     private Set<Pet> pets = new HashSet<>();
 
-    public void addPet(Pet pet){
+    public void addPet(Pet pet) {
         pets.add(pet);
         pet.getAppointments().add(this);
     }

@@ -12,8 +12,9 @@ public class AppointmentMapper {
 
     public Appointment map(AppointmentDto appointmentDto) {
         Appointment appointment = new Appointment();
-        appointment.setUser(appointment.getUser());
+        appointment.setUser(appointmentDto.getUser());
         appointment.setDate(LocalDateTime.parse(appointmentDto.getDate()));
+
         appointment.setPets(appointmentDto.getPets());
         return appointment;
     }
@@ -27,10 +28,10 @@ public class AppointmentMapper {
     }
 
     public AppointmentInfo mapFromAppointmentToAppointmentInfo(Appointment appointment) {
-        AppointmentInfo appointmentInfo = new AppointmentInfo();
-        appointmentInfo.setDate(appointment.getDate());
-        appointmentInfo.setPets(appointment.getPets());
-        appointmentInfo.setUser(appointment.getUser());
-        return appointmentInfo;
+        AppointmentInfo dto = new AppointmentInfo();
+        dto.setDate(appointment.getDate());
+        dto.setPets(appointment.getPets());
+        dto.setUser(appointment.getUser());
+        return dto;
     }
 }

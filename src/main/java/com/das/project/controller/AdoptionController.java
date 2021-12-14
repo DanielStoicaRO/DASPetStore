@@ -33,16 +33,16 @@ public class AdoptionController {
         this.petService = petService;
     }
 
-    @GetMapping("/adoption")
+    @GetMapping("/adoptions")
     public String getPetsPage(Model model) {
-        model.addAttribute("adoption", adoptionService.findAll());
+        model.addAttribute("adoptions", adoptionService.findAll());
         return "adoption/adoptions";
     }
 
     @GetMapping("/adoptions/add")
     public String getAdoptionsPage(Model model) {
         String email = SecurityContextHolder.getContext().getAuthentication().getName();
-
+        // TODO: map user to user info
         User loggedUser = userService.findByEmail(email);
         List<PetDto> pets = petService.getAvailablePets();
 
@@ -57,14 +57,13 @@ public class AdoptionController {
     }
 
     @PostMapping("/adoptions/add")
-    public String adoptPet(@ModelAttribute AdoptionDto adoptionDto){
+    public String adoptPet(@ModelAttribute AdoptionDto adoptionDto) {
         adoptionService.save(adoptionDto);
         return "redirect:/home";
     }
 
     @GetMapping("/adoptions/about")
-    public String getAboutAdoptionsPage(){
+    public String getAboutAdoptionsPage() {
         return "adoption/adoptions-about";
     }
-
 }

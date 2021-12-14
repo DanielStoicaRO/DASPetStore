@@ -5,5 +5,5 @@ public enum Product {
     FOOD,
     TOYS,
     DRUGS,
-    OTHER
+    OTHER;
 }

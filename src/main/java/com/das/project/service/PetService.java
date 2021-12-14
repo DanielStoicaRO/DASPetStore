@@ -16,7 +16,6 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.stream.Collectors;
 
-
 @Service
 public class PetService {
 
@@ -27,15 +26,14 @@ public class PetService {
     private final UserService userService;
 
     @Autowired
-    public PetService(PetRepository petRepository,
-                      PetMapper petMapper,
-                      UserService userService) {
+    public PetService(PetRepository petRepository, PetMapper petMapper, UserService userService) {
         this.petRepository = petRepository;
         this.petMapper = petMapper;
         this.userService = userService;
     }
 
     public PetDto save(PetDto petDto) {
+        // TODO cosmin: use lambda
         petDto.setAvailable(true);
         Pet pet = petMapper.map(petDto);
         Pet savedPet = petRepository.save(pet);
@@ -49,11 +47,17 @@ public class PetService {
                 .collect(Collectors.toList());
     }
 
+    public Pet findByName(String name) {
+        return petRepository.findByNameIgnoreCase(name)
+                .orElseThrow(() -> new ResourceNotFoundException("pet not found"));
+    }
+
     public PetDto findById(Long id) {
         log.info("finding pet with id {}", id);
+
         // find by id from repo
         return petRepository.findById(id)
-                //convert to dto
+                // convert to dto
                 .map(pet -> petMapper.map(pet))
                 .orElseThrow(() -> new ResourceNotFoundException("pet not found"));
     }
@@ -78,6 +82,7 @@ public class PetService {
 
     public void update(PetDto dto) {
         log.info("updating pet with id {} with data {}", dto.getId(), dto);
+
         // find entity by id
         petRepository.findById(dto.getId())
                 // copy values from dto to entity
@@ -91,26 +96,23 @@ public class PetService {
         log.info("find pets by category {}", category);
 
         return petRepository.findByCategory(category)
-                .map(pets -> petMapper.mapPetsToDto(pets))
-                .orElseThrow(() -> new ResourceNotFoundException("pets not found"));
+                .map(pets -> petMapper.mapPetsToDtos(pets))
+                .orElseThrow(() -> new ResourceNotFoundException("pet not found"));
     }
 
     public Pet update2(PetDto dto) {
-
         Pet petToUpdate = petRepository.findById(dto.getId())
                 .orElseThrow(() -> {
                     throw new ResourceNotFoundException("pet not found");
                 });
-
         petToUpdate.setName(dto.getName());
         petToUpdate.setDescription(dto.getDescription());
         petToUpdate.setAvailable(dto.isAvailable());
 
-        return petRepository.save(petToUpdate);
+       return petRepository.save( petToUpdate);
     }
 
     public void deleteById(Long id) {
         petRepository.deleteById(id);
     }
-
 }

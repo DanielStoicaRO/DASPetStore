@@ -12,32 +12,11 @@ import java.util.stream.Collectors;
 @Component
 public class PetMapper {
 
-    // to dto
-    public List<PetInfo> mapPetsToDto(List<Pet> entities) {
+    // to dtos
+    public List<PetInfo> mapPetsToDtos(List<Pet> entities) {
         return entities.stream()
                 .map(pet -> mapFromPetToPetInfo(pet))
                 .collect(Collectors.toList());
-    }
-
-    // to PetInfo(Pet entity)
-    public PetInfo mapFromPetToPetInfo(Pet entity) {
-        PetInfo petInfo = new PetInfo();
-        petInfo.setName(entity.getName());
-        petInfo.setCategory(entity.getCategory());
-        petInfo.setDescription(entity.getDescription());
-        petInfo.setAvailable(entity.isAvailable());
-        petInfo.setPhoto(entity.getPhoto());
-        return petInfo;
-    }
-    // toEntity(PetInfo dto)
-    public Pet mapFromPetInfoToPet(PetInfo petInfo) {
-        Pet entity = new Pet();
-        entity.setName(petInfo.getName());
-        entity.setCategory(petInfo.getCategory());
-        entity.setDescription(petInfo.getDescription());
-        entity.setAvailable(petInfo.isAvailable());
-        entity.setPhoto(petInfo.getPhoto());
-        return entity;
     }
 
     // toEntity(PetDto dto)
@@ -73,5 +52,27 @@ public class PetMapper {
         dto.setAvailable(entity.isAvailable());
         dto.setPhoto(entity.getPhoto());
         return dto;
+    }
+
+    // toEntity(PetInfo dto)
+    public Pet mapFromPetInfoToPet(PetInfo petInfo) {
+        Pet entity = new Pet();
+        entity.setName(petInfo.getName());
+        entity.setCategory(petInfo.getCategory());
+        entity.setDescription(petInfo.getDescription());
+        entity.setAvailable(petInfo.isAvailable());
+        entity.setPhoto(petInfo.getPhoto());
+        return entity;
+    }
+
+    // to PetInfo(Pet entity)
+    public PetInfo mapFromPetToPetInfo(Pet entity) {
+        PetInfo petInfo = new PetInfo();
+        petInfo.setName(entity.getName());
+        petInfo.setCategory(entity.getCategory());
+        petInfo.setDescription(entity.getDescription());
+        petInfo.setAvailable(entity.isAvailable());
+        petInfo.setPhoto(entity.getPhoto());
+        return petInfo;
     }
 }

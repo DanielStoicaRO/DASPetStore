@@ -1,40 +1,40 @@
-2021-12-13T09:27:51,078Z (UTC+0) INFO  com.das.project.AppDAS - Starting AppDAS using Java 16.0.1 on DESKTOP-NLM7RKR with PID 18684 (D:\Repository\DASMyProject\target\classes started by Razvi in D:\Repository\DASMyProject)
-2021-12-13T09:27:51,078Z (UTC+0) INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
-2021-12-13T09:27:51,081Z (UTC+0) INFO  com.das.project.AppDAS - No active profile set, falling back to default profiles: default
-2021-12-13T09:27:51,120Z (UTC+0) INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2021-12-13T09:27:51,120Z (UTC+0) INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2021-12-13T09:27:51,961Z (UTC+0) INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2021-12-13T09:27:52,025Z (UTC+0) INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 57 ms. Found 8 JPA repository interfaces.
-2021-12-13T09:27:52,493Z (UTC+0) INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-2021-12-13T09:27:52,504Z (UTC+0) INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2021-12-13T09:27:52,504Z (UTC+0) INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-12-13T09:27:52,504Z (UTC+0) INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
-2021-12-13T09:27:52,595Z (UTC+0) INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-12-13T09:27:52,595Z (UTC+0) INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1474 ms
-2021-12-13T09:27:52,618Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2021-12-13T09:27:52,922Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2021-12-13T09:27:52,925Z (UTC+0) INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/dasproject?serverTimezone=UTC'
-2021-12-13T09:27:52,977Z (UTC+0) WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2021-12-13T09:27:53,020Z (UTC+0) INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2021-12-13T09:27:53,067Z (UTC+0) INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
-2021-12-13T09:27:53,184Z (UTC+0) INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2021-12-13T09:27:53,269Z (UTC+0) INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-2021-12-13T09:27:54,782Z (UTC+0) INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2021-12-13T09:27:54,789Z (UTC+0) INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2021-12-13T09:27:55,552Z (UTC+0) INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
-2021-12-13T09:27:55,570Z (UTC+0) INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
-2021-12-13T09:27:56,091Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/resources/**'] with []
-2021-12-13T09:27:56,091Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/static/**'] with []
-2021-12-13T09:27:56,091Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/webjars/**'] with []
-2021-12-13T09:27:56,112Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@132d98db, org.springframework.security.web.context.SecurityContextPersistenceFilter@3531928e, org.springframework.security.web.header.HeaderWriterFilter@b80f963, org.springframework.security.web.csrf.CsrfFilter@4002985f, org.springframework.security.web.authentication.logout.LogoutFilter@34f83f73, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3c22e80e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@29c168b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@74c27b8b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7edd9d17, org.springframework.security.web.session.SessionManagementFilter@4d10e1f4, org.springframework.security.web.access.ExceptionTranslationFilter@37875ba8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7a7d4650]
-2021-12-13T09:27:56,168Z (UTC+0) INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-2021-12-13T09:27:56,182Z (UTC+0) INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
-2021-12-13T09:27:56,411Z (UTC+0) INFO  com.das.project.AppDAS - Started AppDAS in 5.637 seconds (JVM running for 6.643)
-2021-12-13T09:28:07,069Z (UTC+0) INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-12-13T09:28:07,070Z (UTC+0) INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2021-12-13T09:28:07,071Z (UTC+0) INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
-2021-12-13T09:28:56,590Z (UTC+0) INFO  com.das.project.service.UserService - save user UserDto(firstName=Daniel, lastName=Stoica, email=dmdprofesional@gmail.com, password=user, phoneNumber=null)
-2021-12-13T09:28:56,603Z (UTC+0) ERROR com.das.project.config.security.ErrorHandler - something went wrong
+2021-12-14T16:31:00,667Z (UTC+0) INFO  com.das.project.AppDAS - Starting AppDAS using Java 16.0.1 on DESKTOP-NLM7RKR with PID 22860 (D:\Repository\DASMyProject\target\classes started by Razvi in D:\Repository\DASMyProject)
+2021-12-14T16:31:00,667Z (UTC+0) INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2021-12-14T16:31:00,671Z (UTC+0) INFO  com.das.project.AppDAS - No active profile set, falling back to default profiles: default
+2021-12-14T16:31:00,719Z (UTC+0) INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-14T16:31:00,720Z (UTC+0) INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-14T16:31:01,585Z (UTC+0) INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-14T16:31:01,653Z (UTC+0) INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 61 ms. Found 8 JPA repository interfaces.
+2021-12-14T16:31:02,174Z (UTC+0) INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-12-14T16:31:02,181Z (UTC+0) INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-14T16:31:02,181Z (UTC+0) INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-12-14T16:31:02,182Z (UTC+0) INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-12-14T16:31:02,293Z (UTC+0) INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-12-14T16:31:02,293Z (UTC+0) INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1573 ms
+2021-12-14T16:31:02,320Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-12-14T16:31:02,627Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-12-14T16:31:02,631Z (UTC+0) INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/dasproject?serverTimezone=UTC'
+2021-12-14T16:31:02,696Z (UTC+0) WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-14T16:31:02,746Z (UTC+0) INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-14T16:31:02,797Z (UTC+0) INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-12-14T16:31:02,919Z (UTC+0) INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-14T16:31:03,010Z (UTC+0) INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-12-14T16:31:03,670Z (UTC+0) INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-14T16:31:03,676Z (UTC+0) INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-14T16:31:04,516Z (UTC+0) INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-12-14T16:31:04,545Z (UTC+0) INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2021-12-14T16:31:05,050Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/resources/**'] with []
+2021-12-14T16:31:05,050Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/static/**'] with []
+2021-12-14T16:31:05,050Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/webjars/**'] with []
+2021-12-14T16:31:05,072Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@23654b57, org.springframework.security.web.context.SecurityContextPersistenceFilter@61f28b7c, org.springframework.security.web.header.HeaderWriterFilter@2accc691, org.springframework.security.web.csrf.CsrfFilter@2fdd32b3, org.springframework.security.web.authentication.logout.LogoutFilter@62615597, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1d437cf6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6b9ee3a0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3dc6807b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@13eddec9, org.springframework.security.web.session.SessionManagementFilter@5a50a9ee, org.springframework.security.web.access.ExceptionTranslationFilter@5b9bd3e4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1586a583]
+2021-12-14T16:31:05,131Z (UTC+0) INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-12-14T16:31:05,145Z (UTC+0) INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-14T16:31:05,202Z (UTC+0) INFO  com.das.project.AppDAS - Started AppDAS in 4.864 seconds (JVM running for 5.994)
+2021-12-14T16:31:43,787Z (UTC+0) INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-14T16:31:43,787Z (UTC+0) INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-12-14T16:31:43,788Z (UTC+0) INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-12-14T16:32:20,615Z (UTC+0) INFO  com.das.project.service.UserService - save user UserDto(firstName=Daniel, lastName=Stoica, email=dan@email.com, password=user, phoneNumber=null)
+2021-12-14T16:32:20,646Z (UTC+0) ERROR com.das.project.config.security.ErrorHandler - something went wrong
 com.das.project.controller.exception.ResourceNotFoundException: role not found
 	at com.das.project.service.UserService.lambda$saveUser$0(UserService.java:44)
 	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
@@ -53,7 +53,7 @@ com.das.project.controller.exception.ResourceNotFoundException: role not found
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:692)
-	at com.das.project.service.UserService$$EnhancerBySpringCGLIB$$f480fdb5.save(<generated>)
+	at com.das.project.service.UserService$$EnhancerBySpringCGLIB$$8aa15d67.save(<generated>)
 	at com.das.project.controller.UserController.register(UserController.java:27)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
@@ -149,124 +149,1130 @@ com.das.project.controller.exception.ResourceNotFoundException: role not found
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:831)
-2021-12-13T09:28:56,604Z (UTC+0) WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [com.das.project.controller.exception.ResourceNotFoundException: role not found]
-2021-12-13T09:29:31,533Z (UTC+0) INFO  com.das.project.service.UserService - save user UserDto(firstName=Daniel, lastName=Stoica, email=daniel@gmail.com, password=user, phoneNumber=null)
-2021-12-13T09:29:31,536Z (UTC+0) ERROR com.das.project.config.security.ErrorHandler - something went wrong
-com.das.project.controller.exception.ResourceNotFoundException: role not found
-	at com.das.project.service.UserService.lambda$saveUser$0(UserService.java:44)
-	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
-	at com.das.project.service.UserService.saveUser(UserService.java:44)
-	at com.das.project.service.UserService.lambda$save$2(UserService.java:76)
-	at java.base/java.util.Optional.orElseGet(Optional.java:364)
-	at com.das.project.service.UserService.save(UserService.java:76)
-	at com.das.project.service.UserService$$FastClassBySpringCGLIB$$1177a177.invoke(<generated>)
-	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:779)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
-	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
-	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388)
-	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
-	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
-	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
-	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:692)
-	at com.das.project.service.UserService$$EnhancerBySpringCGLIB$$f480fdb5.save(<generated>)
-	at com.das.project.controller.UserController.register(UserController.java:27)
+2021-12-14T16:32:20,647Z (UTC+0) WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [com.das.project.controller.exception.ResourceNotFoundException: role not found]
+2021-12-14T16:33:08,587Z (UTC+0) INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-14T16:33:08,589Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-12-14T16:33:08,594Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-12-14T16:46:20,328Z (UTC+0) INFO  com.das.project.AppDAS - Starting AppDAS using Java 16.0.1 on DESKTOP-NLM7RKR with PID 4012 (D:\Repository\DASMyProject\target\classes started by Razvi in D:\Repository\DASMyProject)
+2021-12-14T16:46:20,328Z (UTC+0) INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2021-12-14T16:46:20,330Z (UTC+0) INFO  com.das.project.AppDAS - No active profile set, falling back to default profiles: default
+2021-12-14T16:46:20,362Z (UTC+0) INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-14T16:46:20,362Z (UTC+0) INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-14T16:46:21,333Z (UTC+0) INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-14T16:46:21,397Z (UTC+0) INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 57 ms. Found 8 JPA repository interfaces.
+2021-12-14T16:46:21,904Z (UTC+0) INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-12-14T16:46:21,910Z (UTC+0) INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-14T16:46:21,910Z (UTC+0) INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-12-14T16:46:21,910Z (UTC+0) INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-12-14T16:46:22,001Z (UTC+0) INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-12-14T16:46:22,001Z (UTC+0) INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1638 ms
+2021-12-14T16:46:22,023Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-12-14T16:46:22,238Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-12-14T16:46:22,242Z (UTC+0) INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/dasproject?serverTimezone=UTC'
+2021-12-14T16:46:22,310Z (UTC+0) WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-14T16:46:22,350Z (UTC+0) INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-14T16:46:22,386Z (UTC+0) INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-12-14T16:46:22,466Z (UTC+0) INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-14T16:46:22,540Z (UTC+0) INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-12-14T16:46:25,156Z (UTC+0) INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-14T16:46:25,161Z (UTC+0) INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-14T16:46:25,945Z (UTC+0) INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-12-14T16:46:25,974Z (UTC+0) INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2021-12-14T16:46:26,474Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/resources/**'] with []
+2021-12-14T16:46:26,475Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/static/**'] with []
+2021-12-14T16:46:26,475Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/webjars/**'] with []
+2021-12-14T16:46:26,499Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1c19a147, org.springframework.security.web.context.SecurityContextPersistenceFilter@352ca546, org.springframework.security.web.header.HeaderWriterFilter@4061a115, org.springframework.security.web.csrf.CsrfFilter@6f30797d, org.springframework.security.web.authentication.logout.LogoutFilter@7f7b9bf6, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5d0d1533, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7ae4c3d2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@79d8145b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3cd4292, org.springframework.security.web.session.SessionManagementFilter@6cbc7d4, org.springframework.security.web.access.ExceptionTranslationFilter@62ae8c6d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3d33b8b6]
+2021-12-14T16:46:26,556Z (UTC+0) INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-12-14T16:46:26,569Z (UTC+0) INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-14T16:46:26,620Z (UTC+0) INFO  com.das.project.AppDAS - Started AppDAS in 6.631 seconds (JVM running for 7.466)
+2021-12-14T16:46:26,622Z (UTC+0) INFO  com.das.project.config.DbInit - setup initial data
+2021-12-14T16:46:26,939Z (UTC+0) INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-12-14T16:46:26,954Z (UTC+0) ERROR org.springframework.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:794)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.das.project.AppDAS.main(AppDAS.java:10)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at org.springframework.web.servlet.resource.ResourceUrlEncodingFilter.doFilter(ResourceUrlEncodingFilter.java:67)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327)
-	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
-	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
-	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:121)
-	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:115)
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
-	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
-	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
-	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:105)
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
-	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
-	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
-	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:218)
-	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:212)
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
-	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
-	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
-	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:132)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
-	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
-	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
-	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
-	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
-	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
-	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
-	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
-	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
-	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
-	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.base/java.lang.Thread.run(Thread.java:831)
-2021-12-13T09:29:31,537Z (UTC+0) WARN  org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [com.das.project.controller.exception.ResourceNotFoundException: role not found]
-2021-12-13T09:29:37,806Z (UTC+0) INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-2021-12-13T09:29:37,808Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2021-12-13T09:29:37,814Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: com.das.project.controller.exception.ResourceNotFoundException: pet not found
+	at com.das.project.service.PetService.lambda$update2$11(PetService.java:102)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at com.das.project.service.PetService.update2(PetService.java:101)
+	at com.das.project.config.DbInit.lambda$initialData$0(DbInit.java:93)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:791)
+	... 10 common frames omitted
+2021-12-14T16:46:27,012Z (UTC+0) INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-14T16:46:27,014Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-12-14T16:46:27,021Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-12-14T16:48:58,586Z (UTC+0) INFO  com.das.project.AppDAS - Starting AppDAS using Java 16.0.1 on DESKTOP-NLM7RKR with PID 24512 (D:\Repository\DASMyProject\target\classes started by Razvi in D:\Repository\DASMyProject)
+2021-12-14T16:48:58,586Z (UTC+0) INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2021-12-14T16:48:58,587Z (UTC+0) INFO  com.das.project.AppDAS - No active profile set, falling back to default profiles: default
+2021-12-14T16:48:58,621Z (UTC+0) INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-14T16:48:58,622Z (UTC+0) INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-14T16:48:59,357Z (UTC+0) INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-14T16:48:59,409Z (UTC+0) INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 46 ms. Found 8 JPA repository interfaces.
+2021-12-14T16:48:59,860Z (UTC+0) INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-12-14T16:48:59,868Z (UTC+0) INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-14T16:48:59,868Z (UTC+0) INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-12-14T16:48:59,868Z (UTC+0) INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-12-14T16:48:59,956Z (UTC+0) INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-12-14T16:48:59,956Z (UTC+0) INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1334 ms
+2021-12-14T16:48:59,979Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-12-14T16:49:00,215Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-12-14T16:49:00,219Z (UTC+0) INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/dasproject?serverTimezone=UTC'
+2021-12-14T16:49:00,281Z (UTC+0) WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-14T16:49:00,322Z (UTC+0) INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-14T16:49:00,355Z (UTC+0) INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-12-14T16:49:00,438Z (UTC+0) INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-14T16:49:00,515Z (UTC+0) INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-12-14T16:49:01,100Z (UTC+0) INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-14T16:49:01,106Z (UTC+0) INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-14T16:49:01,857Z (UTC+0) INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-12-14T16:49:01,882Z (UTC+0) INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2021-12-14T16:49:02,352Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/resources/**'] with []
+2021-12-14T16:49:02,353Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/static/**'] with []
+2021-12-14T16:49:02,353Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/webjars/**'] with []
+2021-12-14T16:49:02,373Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@34d6b1c3, org.springframework.security.web.context.SecurityContextPersistenceFilter@8562b7b, org.springframework.security.web.header.HeaderWriterFilter@770498a8, org.springframework.security.web.csrf.CsrfFilter@1368cfbf, org.springframework.security.web.authentication.logout.LogoutFilter@257f7d89, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7eff8d5b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@55a4295d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@38729789, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4146c4d8, org.springframework.security.web.session.SessionManagementFilter@475b41cb, org.springframework.security.web.access.ExceptionTranslationFilter@345e331c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@13eddec9]
+2021-12-14T16:49:02,428Z (UTC+0) INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-12-14T16:49:02,441Z (UTC+0) INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-14T16:49:02,493Z (UTC+0) INFO  com.das.project.AppDAS - Started AppDAS in 4.246 seconds (JVM running for 5.076)
+2021-12-14T16:49:02,495Z (UTC+0) INFO  com.das.project.config.DbInit - setup initial data
+2021-12-14T16:49:02,543Z (UTC+0) INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-12-14T16:49:02,557Z (UTC+0) ERROR org.springframework.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:794)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.das.project.AppDAS.main(AppDAS.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: com.das.project.controller.exception.ResourceAlreadyExistsException: privilege already exists
+	at com.das.project.config.DbInit.lambda$createPrivilegeIfNotFound$3(DbInit.java:251)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at com.das.project.config.DbInit.createPrivilegeIfNotFound(DbInit.java:250)
+	at com.das.project.config.DbInit.lambda$initialData$0(DbInit.java:67)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:791)
+	... 10 common frames omitted
+2021-12-14T16:49:02,602Z (UTC+0) INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-14T16:49:02,604Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-12-14T16:49:02,609Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-12-14T16:50:02,317Z (UTC+0) INFO  com.das.project.AppDAS - Starting AppDAS using Java 16.0.1 on DESKTOP-NLM7RKR with PID 21292 (D:\Repository\DASMyProject\target\classes started by Razvi in D:\Repository\DASMyProject)
+2021-12-14T16:50:02,317Z (UTC+0) INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2021-12-14T16:50:02,319Z (UTC+0) INFO  com.das.project.AppDAS - No active profile set, falling back to default profiles: default
+2021-12-14T16:50:02,352Z (UTC+0) INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-14T16:50:02,352Z (UTC+0) INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-14T16:50:03,101Z (UTC+0) INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-14T16:50:03,154Z (UTC+0) INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 47 ms. Found 8 JPA repository interfaces.
+2021-12-14T16:50:03,641Z (UTC+0) INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-12-14T16:50:03,647Z (UTC+0) INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-14T16:50:03,647Z (UTC+0) INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-12-14T16:50:03,647Z (UTC+0) INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-12-14T16:50:03,759Z (UTC+0) INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-12-14T16:50:03,759Z (UTC+0) INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1407 ms
+2021-12-14T16:50:03,781Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-12-14T16:50:04,009Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-12-14T16:50:04,013Z (UTC+0) INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/dasproject?serverTimezone=UTC'
+2021-12-14T16:50:04,073Z (UTC+0) WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-14T16:50:04,116Z (UTC+0) INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-14T16:50:04,153Z (UTC+0) INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-12-14T16:50:04,237Z (UTC+0) INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-14T16:50:04,315Z (UTC+0) INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-12-14T16:50:04,874Z (UTC+0) INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-14T16:50:04,880Z (UTC+0) INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-14T16:50:05,655Z (UTC+0) INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-12-14T16:50:05,679Z (UTC+0) INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2021-12-14T16:50:06,165Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/resources/**'] with []
+2021-12-14T16:50:06,165Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/static/**'] with []
+2021-12-14T16:50:06,166Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/webjars/**'] with []
+2021-12-14T16:50:06,188Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4448f473, org.springframework.security.web.context.SecurityContextPersistenceFilter@77a03abb, org.springframework.security.web.header.HeaderWriterFilter@3901dad4, org.springframework.security.web.csrf.CsrfFilter@479b1e29, org.springframework.security.web.authentication.logout.LogoutFilter@6d505510, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@306b95f3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3ef63b7e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@154ed38e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@77fbdd27, org.springframework.security.web.session.SessionManagementFilter@5d8791f0, org.springframework.security.web.access.ExceptionTranslationFilter@54b26e8f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@75fab585]
+2021-12-14T16:50:06,246Z (UTC+0) INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-12-14T16:50:06,264Z (UTC+0) INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-14T16:50:06,325Z (UTC+0) INFO  com.das.project.AppDAS - Started AppDAS in 4.343 seconds (JVM running for 5.155)
+2021-12-14T16:50:06,326Z (UTC+0) INFO  com.das.project.config.DbInit - setup initial data
+2021-12-14T16:50:06,370Z (UTC+0) INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-12-14T16:50:06,387Z (UTC+0) ERROR org.springframework.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:794)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.das.project.AppDAS.main(AppDAS.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: com.das.project.controller.exception.ResourceAlreadyExistsException: privilege already exists
+	at com.das.project.config.DbInit.lambda$createPrivilegeIfNotFound$3(DbInit.java:251)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at com.das.project.config.DbInit.createPrivilegeIfNotFound(DbInit.java:250)
+	at com.das.project.config.DbInit.lambda$initialData$0(DbInit.java:67)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:791)
+	... 10 common frames omitted
+2021-12-14T16:50:06,427Z (UTC+0) INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-14T16:50:06,431Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-12-14T16:50:06,436Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-12-14T16:53:03,062Z (UTC+0) INFO  com.das.project.AppDAS - Starting AppDAS using Java 16.0.1 on DESKTOP-NLM7RKR with PID 15548 (D:\Repository\DASMyProject\target\classes started by Razvi in D:\Repository\DASMyProject)
+2021-12-14T16:53:03,064Z (UTC+0) INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2021-12-14T16:53:03,065Z (UTC+0) INFO  com.das.project.AppDAS - No active profile set, falling back to default profiles: default
+2021-12-14T16:53:03,102Z (UTC+0) INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-14T16:53:03,102Z (UTC+0) INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-14T16:53:03,834Z (UTC+0) INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-14T16:53:03,885Z (UTC+0) INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 46 ms. Found 8 JPA repository interfaces.
+2021-12-14T16:53:04,338Z (UTC+0) INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-12-14T16:53:04,344Z (UTC+0) INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-14T16:53:04,344Z (UTC+0) INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-12-14T16:53:04,345Z (UTC+0) INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-12-14T16:53:04,456Z (UTC+0) INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-12-14T16:53:04,456Z (UTC+0) INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1354 ms
+2021-12-14T16:53:04,478Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-12-14T16:53:04,691Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-12-14T16:53:04,695Z (UTC+0) INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/dasproject?serverTimezone=UTC'
+2021-12-14T16:53:04,753Z (UTC+0) WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-14T16:53:04,795Z (UTC+0) INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-14T16:53:04,828Z (UTC+0) INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-12-14T16:53:04,903Z (UTC+0) INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-14T16:53:04,982Z (UTC+0) INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-12-14T16:53:05,532Z (UTC+0) INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-14T16:53:05,538Z (UTC+0) INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-14T16:53:06,288Z (UTC+0) INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-12-14T16:53:06,313Z (UTC+0) INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2021-12-14T16:53:06,793Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/resources/**'] with []
+2021-12-14T16:53:06,793Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/static/**'] with []
+2021-12-14T16:53:06,794Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/webjars/**'] with []
+2021-12-14T16:53:06,831Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@35c04600, org.springframework.security.web.context.SecurityContextPersistenceFilter@6a43c80a, org.springframework.security.web.header.HeaderWriterFilter@2f519dab, org.springframework.security.web.csrf.CsrfFilter@1fdd46a5, org.springframework.security.web.authentication.logout.LogoutFilter@3a8ce3b1, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@8529e99, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5ee1af73, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6f032a48, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@46b1d24c, org.springframework.security.web.session.SessionManagementFilter@3dc6807b, org.springframework.security.web.access.ExceptionTranslationFilter@48ec7c92, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4146c4d8]
+2021-12-14T16:53:06,887Z (UTC+0) INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-12-14T16:53:06,901Z (UTC+0) INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-14T16:53:06,954Z (UTC+0) INFO  com.das.project.AppDAS - Started AppDAS in 4.215 seconds (JVM running for 5.016)
+2021-12-14T16:53:06,956Z (UTC+0) INFO  com.das.project.config.DbInit - setup initial data
+2021-12-14T16:53:06,996Z (UTC+0) INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-12-14T16:53:07,010Z (UTC+0) ERROR org.springframework.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:794)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.das.project.AppDAS.main(AppDAS.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: com.das.project.controller.exception.ResourceAlreadyExistsException: privilege already exists
+	at com.das.project.config.DbInit.lambda$createPrivilegeIfNotFound$3(DbInit.java:251)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at com.das.project.config.DbInit.createPrivilegeIfNotFound(DbInit.java:250)
+	at com.das.project.config.DbInit.lambda$initialData$0(DbInit.java:67)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:791)
+	... 10 common frames omitted
+2021-12-14T16:53:07,052Z (UTC+0) INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-14T16:53:07,054Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-12-14T16:53:07,059Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-12-14T17:01:40,127Z (UTC+0) INFO  com.das.project.AppDAS - Starting AppDAS using Java 16.0.1 on DESKTOP-NLM7RKR with PID 5804 (D:\Repository\DASMyProject\target\classes started by Razvi in D:\Repository\DASMyProject)
+2021-12-14T17:01:40,129Z (UTC+0) INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2021-12-14T17:01:40,131Z (UTC+0) INFO  com.das.project.AppDAS - No active profile set, falling back to default profiles: default
+2021-12-14T17:01:40,175Z (UTC+0) INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-14T17:01:40,175Z (UTC+0) INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-14T17:01:40,997Z (UTC+0) INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-14T17:01:41,050Z (UTC+0) INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 47 ms. Found 8 JPA repository interfaces.
+2021-12-14T17:01:41,505Z (UTC+0) INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-12-14T17:01:41,511Z (UTC+0) INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-14T17:01:41,511Z (UTC+0) INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-12-14T17:01:41,512Z (UTC+0) INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-12-14T17:01:41,603Z (UTC+0) INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-12-14T17:01:41,604Z (UTC+0) INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1429 ms
+2021-12-14T17:01:41,627Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-12-14T17:01:41,844Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-12-14T17:01:41,847Z (UTC+0) INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/dasproject?serverTimezone=UTC'
+2021-12-14T17:01:41,916Z (UTC+0) WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-14T17:01:41,957Z (UTC+0) INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-14T17:01:41,994Z (UTC+0) INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-12-14T17:01:42,074Z (UTC+0) INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-14T17:01:42,152Z (UTC+0) INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-12-14T17:01:42,760Z (UTC+0) INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-14T17:01:42,767Z (UTC+0) INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-14T17:01:43,593Z (UTC+0) INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-12-14T17:01:43,619Z (UTC+0) INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2021-12-14T17:01:44,135Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/resources/**'] with []
+2021-12-14T17:01:44,135Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/static/**'] with []
+2021-12-14T17:01:44,135Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/webjars/**'] with []
+2021-12-14T17:01:44,156Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6acfc4c1, org.springframework.security.web.context.SecurityContextPersistenceFilter@73d13d59, org.springframework.security.web.header.HeaderWriterFilter@35e62a85, org.springframework.security.web.csrf.CsrfFilter@1212ad4b, org.springframework.security.web.authentication.logout.LogoutFilter@3a99a4b7, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@605f2f9f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@31cf83d5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@116edf02, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1784d312, org.springframework.security.web.session.SessionManagementFilter@7ba10237, org.springframework.security.web.access.ExceptionTranslationFilter@7dfd9ada, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5859a311]
+2021-12-14T17:01:44,210Z (UTC+0) INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-12-14T17:01:44,223Z (UTC+0) INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-14T17:01:44,276Z (UTC+0) INFO  com.das.project.AppDAS - Started AppDAS in 4.494 seconds (JVM running for 5.727)
+2021-12-14T17:01:44,278Z (UTC+0) INFO  com.das.project.config.DbInit - setup initial data
+2021-12-14T17:01:44,319Z (UTC+0) INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-12-14T17:01:44,333Z (UTC+0) ERROR org.springframework.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:794)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.das.project.AppDAS.main(AppDAS.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: com.das.project.controller.exception.ResourceAlreadyExistsException: privilege already exists
+	at com.das.project.config.DbInit.lambda$createPrivilegeIfNotFound$3(DbInit.java:251)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at com.das.project.config.DbInit.createPrivilegeIfNotFound(DbInit.java:250)
+	at com.das.project.config.DbInit.lambda$initialData$0(DbInit.java:67)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:791)
+	... 10 common frames omitted
+2021-12-14T17:01:44,374Z (UTC+0) INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-14T17:01:44,377Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-12-14T17:01:44,383Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-12-14T17:02:37,921Z (UTC+0) INFO  com.das.project.AppDAS - Starting AppDAS using Java 16.0.1 on DESKTOP-NLM7RKR with PID 21548 (D:\Repository\DASMyProject\target\classes started by Razvi in D:\Repository\DASMyProject)
+2021-12-14T17:02:37,921Z (UTC+0) INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2021-12-14T17:02:37,923Z (UTC+0) INFO  com.das.project.AppDAS - No active profile set, falling back to default profiles: default
+2021-12-14T17:02:37,967Z (UTC+0) INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-14T17:02:37,967Z (UTC+0) INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-14T17:02:38,862Z (UTC+0) INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-14T17:02:38,938Z (UTC+0) INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 69 ms. Found 8 JPA repository interfaces.
+2021-12-14T17:02:39,503Z (UTC+0) INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-12-14T17:02:39,509Z (UTC+0) INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-14T17:02:39,510Z (UTC+0) INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-12-14T17:02:39,510Z (UTC+0) INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-12-14T17:02:39,602Z (UTC+0) INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-12-14T17:02:39,602Z (UTC+0) INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1635 ms
+2021-12-14T17:02:39,626Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-12-14T17:02:39,873Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-12-14T17:02:39,877Z (UTC+0) INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/dasproject?serverTimezone=UTC'
+2021-12-14T17:02:39,950Z (UTC+0) WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-14T17:02:40,001Z (UTC+0) INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-14T17:02:40,041Z (UTC+0) INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-12-14T17:02:40,159Z (UTC+0) INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-14T17:02:40,242Z (UTC+0) INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-12-14T17:02:40,945Z (UTC+0) INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-14T17:02:40,952Z (UTC+0) INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-14T17:02:41,818Z (UTC+0) INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-12-14T17:02:41,841Z (UTC+0) INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2021-12-14T17:02:42,407Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/resources/**'] with []
+2021-12-14T17:02:42,407Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/static/**'] with []
+2021-12-14T17:02:42,407Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/webjars/**'] with []
+2021-12-14T17:02:42,429Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4927c116, org.springframework.security.web.context.SecurityContextPersistenceFilter@3e03df76, org.springframework.security.web.header.HeaderWriterFilter@3baed817, org.springframework.security.web.csrf.CsrfFilter@33210828, org.springframework.security.web.authentication.logout.LogoutFilter@17ad3642, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2391b7c3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2a68cbc4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6cde2c65, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6feac173, org.springframework.security.web.session.SessionManagementFilter@69e2dd6a, org.springframework.security.web.access.ExceptionTranslationFilter@70165bc9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3c7b35ed]
+2021-12-14T17:02:42,501Z (UTC+0) INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-12-14T17:02:42,521Z (UTC+0) INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-14T17:02:42,584Z (UTC+0) INFO  com.das.project.AppDAS - Started AppDAS in 5.007 seconds (JVM running for 6.369)
+2021-12-14T17:02:42,586Z (UTC+0) INFO  com.das.project.config.DbInit - setup initial data
+2021-12-14T17:04:13,591Z (UTC+0) WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m2s967ms370µs300ns).
+2021-12-14T17:04:33,887Z (UTC+0) INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-12-14T17:04:33,968Z (UTC+0) INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-14T17:04:33,970Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-12-14T17:04:33,976Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-12-14T17:04:41,022Z (UTC+0) INFO  com.das.project.AppDAS - Starting AppDAS using Java 16.0.1 on DESKTOP-NLM7RKR with PID 8968 (D:\Repository\DASMyProject\target\classes started by Razvi in D:\Repository\DASMyProject)
+2021-12-14T17:04:41,024Z (UTC+0) INFO  com.das.project.AppDAS - No active profile set, falling back to default profiles: default
+2021-12-14T17:04:41,023Z (UTC+0) INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2021-12-14T17:04:41,055Z (UTC+0) INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-14T17:04:41,055Z (UTC+0) INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-14T17:04:41,777Z (UTC+0) INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-14T17:04:41,834Z (UTC+0) INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 51 ms. Found 8 JPA repository interfaces.
+2021-12-14T17:04:42,304Z (UTC+0) INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-12-14T17:04:42,311Z (UTC+0) INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-14T17:04:42,311Z (UTC+0) INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-12-14T17:04:42,311Z (UTC+0) INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-12-14T17:04:42,428Z (UTC+0) INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-12-14T17:04:42,428Z (UTC+0) INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1372 ms
+2021-12-14T17:04:42,451Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-12-14T17:04:42,662Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-12-14T17:04:42,666Z (UTC+0) INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/dasproject?serverTimezone=UTC'
+2021-12-14T17:04:42,728Z (UTC+0) WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-14T17:04:42,771Z (UTC+0) INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-14T17:04:42,804Z (UTC+0) INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-12-14T17:04:42,890Z (UTC+0) INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-14T17:04:42,978Z (UTC+0) INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-12-14T17:04:43,682Z (UTC+0) INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-14T17:04:43,689Z (UTC+0) INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-14T17:04:44,559Z (UTC+0) INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-12-14T17:04:44,582Z (UTC+0) INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2021-12-14T17:04:45,174Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/resources/**'] with []
+2021-12-14T17:04:45,174Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/static/**'] with []
+2021-12-14T17:04:45,175Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/webjars/**'] with []
+2021-12-14T17:04:45,198Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@34d6b1c3, org.springframework.security.web.context.SecurityContextPersistenceFilter@8562b7b, org.springframework.security.web.header.HeaderWriterFilter@770498a8, org.springframework.security.web.csrf.CsrfFilter@1368cfbf, org.springframework.security.web.authentication.logout.LogoutFilter@257f7d89, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7eff8d5b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@55a4295d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@38729789, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4146c4d8, org.springframework.security.web.session.SessionManagementFilter@475b41cb, org.springframework.security.web.access.ExceptionTranslationFilter@345e331c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@13eddec9]
+2021-12-14T17:04:45,263Z (UTC+0) INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-12-14T17:04:45,276Z (UTC+0) INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-14T17:04:45,332Z (UTC+0) INFO  com.das.project.AppDAS - Started AppDAS in 4.654 seconds (JVM running for 5.646)
+2021-12-14T17:04:45,334Z (UTC+0) INFO  com.das.project.config.DbInit - setup initial data
+2021-12-14T17:04:45,374Z (UTC+0) INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-12-14T17:04:45,388Z (UTC+0) ERROR org.springframework.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:794)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.das.project.AppDAS.main(AppDAS.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: com.das.project.controller.exception.ResourceAlreadyExistsException: privilege already exists
+	at com.das.project.config.DbInit.lambda$createPrivilegeIfNotFound$3(DbInit.java:251)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at com.das.project.config.DbInit.createPrivilegeIfNotFound(DbInit.java:250)
+	at com.das.project.config.DbInit.lambda$initialData$0(DbInit.java:67)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:791)
+	... 10 common frames omitted
+2021-12-14T17:04:45,428Z (UTC+0) INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-14T17:04:45,431Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-12-14T17:04:45,437Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-12-14T17:07:08,845Z (UTC+0) INFO  com.das.project.AppDAS - Starting AppDAS using Java 16.0.1 on DESKTOP-NLM7RKR with PID 24360 (D:\Repository\DASMyProject\target\classes started by Razvi in D:\Repository\DASMyProject)
+2021-12-14T17:07:08,847Z (UTC+0) INFO  com.das.project.AppDAS - No active profile set, falling back to default profiles: default
+2021-12-14T17:07:08,849Z (UTC+0) INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2021-12-14T17:07:08,882Z (UTC+0) INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-14T17:07:08,883Z (UTC+0) INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-14T17:07:09,613Z (UTC+0) INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-14T17:07:09,665Z (UTC+0) INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 46 ms. Found 8 JPA repository interfaces.
+2021-12-14T17:07:10,101Z (UTC+0) INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-12-14T17:07:10,107Z (UTC+0) INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-14T17:07:10,107Z (UTC+0) INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-12-14T17:07:10,107Z (UTC+0) INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-12-14T17:07:10,192Z (UTC+0) INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-12-14T17:07:10,192Z (UTC+0) INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1309 ms
+2021-12-14T17:07:10,213Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-12-14T17:07:10,420Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-12-14T17:07:10,424Z (UTC+0) INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/dasproject?serverTimezone=UTC'
+2021-12-14T17:07:10,492Z (UTC+0) WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-14T17:07:10,532Z (UTC+0) INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-14T17:07:10,567Z (UTC+0) INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-12-14T17:07:10,646Z (UTC+0) INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-14T17:07:10,717Z (UTC+0) INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-12-14T17:07:11,307Z (UTC+0) INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-14T17:07:11,314Z (UTC+0) INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-14T17:07:12,064Z (UTC+0) INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-12-14T17:07:12,089Z (UTC+0) INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2021-12-14T17:07:12,571Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/resources/**'] with []
+2021-12-14T17:07:12,571Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/static/**'] with []
+2021-12-14T17:07:12,571Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/webjars/**'] with []
+2021-12-14T17:07:12,591Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6579e38e, org.springframework.security.web.context.SecurityContextPersistenceFilter@72536aa0, org.springframework.security.web.header.HeaderWriterFilter@49dca85f, org.springframework.security.web.csrf.CsrfFilter@2accc691, org.springframework.security.web.authentication.logout.LogoutFilter@494cab48, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@79430c69, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@38729789, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@39235477, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@52be5967, org.springframework.security.web.session.SessionManagementFilter@572d38b5, org.springframework.security.web.access.ExceptionTranslationFilter@166576c9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7e81b064]
+2021-12-14T17:07:12,645Z (UTC+0) INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-12-14T17:07:12,658Z (UTC+0) INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-14T17:07:12,709Z (UTC+0) INFO  com.das.project.AppDAS - Started AppDAS in 4.201 seconds (JVM running for 5.005)
+2021-12-14T17:07:12,710Z (UTC+0) INFO  com.das.project.config.DbInit - setup initial data
+2021-12-14T17:07:12,750Z (UTC+0) INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-12-14T17:07:12,765Z (UTC+0) ERROR org.springframework.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:794)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.das.project.AppDAS.main(AppDAS.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: com.das.project.controller.exception.ResourceAlreadyExistsException: privilege already exists
+	at com.das.project.config.DbInit.lambda$createPrivilegeIfNotFound$3(DbInit.java:251)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at com.das.project.config.DbInit.createPrivilegeIfNotFound(DbInit.java:250)
+	at com.das.project.config.DbInit.lambda$initialData$0(DbInit.java:67)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:791)
+	... 10 common frames omitted
+2021-12-14T17:07:12,802Z (UTC+0) INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-14T17:07:12,806Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-12-14T17:07:12,811Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-12-14T17:09:31,908Z (UTC+0) INFO  com.das.project.AppDAS - Starting AppDAS using Java 16.0.1 on DESKTOP-NLM7RKR with PID 24160 (D:\Repository\DASMyProject\target\classes started by Razvi in D:\Repository\DASMyProject)
+2021-12-14T17:09:31,908Z (UTC+0) INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2021-12-14T17:09:31,910Z (UTC+0) INFO  com.das.project.AppDAS - No active profile set, falling back to default profiles: default
+2021-12-14T17:09:31,941Z (UTC+0) INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-14T17:09:31,941Z (UTC+0) INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-14T17:09:32,674Z (UTC+0) INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-14T17:09:32,727Z (UTC+0) INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 47 ms. Found 8 JPA repository interfaces.
+2021-12-14T17:09:33,180Z (UTC+0) INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-12-14T17:09:33,185Z (UTC+0) INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-14T17:09:33,186Z (UTC+0) INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-12-14T17:09:33,186Z (UTC+0) INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-12-14T17:09:33,292Z (UTC+0) INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-12-14T17:09:33,293Z (UTC+0) INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1351 ms
+2021-12-14T17:09:33,314Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-12-14T17:09:33,528Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-12-14T17:09:33,532Z (UTC+0) INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/dasproject?serverTimezone=UTC'
+2021-12-14T17:09:33,601Z (UTC+0) WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-14T17:09:33,644Z (UTC+0) INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-14T17:09:33,691Z (UTC+0) INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-12-14T17:09:33,771Z (UTC+0) INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-14T17:09:33,847Z (UTC+0) INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-12-14T17:09:34,423Z (UTC+0) INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-14T17:09:34,429Z (UTC+0) INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-14T17:09:35,189Z (UTC+0) INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-12-14T17:09:35,213Z (UTC+0) INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2021-12-14T17:09:35,692Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/resources/**'] with []
+2021-12-14T17:09:35,692Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/static/**'] with []
+2021-12-14T17:09:35,692Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/webjars/**'] with []
+2021-12-14T17:09:35,711Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4296c82d, org.springframework.security.web.context.SecurityContextPersistenceFilter@3901dad4, org.springframework.security.web.header.HeaderWriterFilter@7edd9d17, org.springframework.security.web.csrf.CsrfFilter@2defb8eb, org.springframework.security.web.authentication.logout.LogoutFilter@3997946a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1029accd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5d8791f0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4f701afb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4d0fc1fc, org.springframework.security.web.session.SessionManagementFilter@54b26e8f, org.springframework.security.web.access.ExceptionTranslationFilter@3c22e80e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@784af6a2]
+2021-12-14T17:09:35,764Z (UTC+0) INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-12-14T17:09:35,777Z (UTC+0) INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-14T17:09:35,833Z (UTC+0) INFO  com.das.project.AppDAS - Started AppDAS in 4.26 seconds (JVM running for 5.085)
+2021-12-14T17:09:35,835Z (UTC+0) INFO  com.das.project.config.DbInit - setup initial data
+2021-12-14T17:09:35,873Z (UTC+0) INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-12-14T17:09:35,887Z (UTC+0) ERROR org.springframework.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:794)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.das.project.AppDAS.main(AppDAS.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: com.das.project.controller.exception.ResourceAlreadyExistsException: privilege already exists
+	at com.das.project.config.DbInit.lambda$createPrivilegeIfNotFound$3(DbInit.java:251)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at com.das.project.config.DbInit.createPrivilegeIfNotFound(DbInit.java:250)
+	at com.das.project.config.DbInit.lambda$initialData$0(DbInit.java:67)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:791)
+	... 10 common frames omitted
+2021-12-14T17:09:35,927Z (UTC+0) INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-14T17:09:35,929Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-12-14T17:09:35,934Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-12-14T17:15:21,678Z (UTC+0) INFO  com.das.project.AppDAS - Starting AppDAS using Java 16.0.1 on DESKTOP-NLM7RKR with PID 21720 (D:\Repository\DASMyProject\target\classes started by Razvi in D:\Repository\DASMyProject)
+2021-12-14T17:15:21,678Z (UTC+0) INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2021-12-14T17:15:21,681Z (UTC+0) INFO  com.das.project.AppDAS - No active profile set, falling back to default profiles: default
+2021-12-14T17:15:21,716Z (UTC+0) INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-14T17:15:21,716Z (UTC+0) INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-14T17:15:22,462Z (UTC+0) INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-14T17:15:22,517Z (UTC+0) INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 49 ms. Found 8 JPA repository interfaces.
+2021-12-14T17:15:22,973Z (UTC+0) INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-12-14T17:15:22,978Z (UTC+0) INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-14T17:15:22,979Z (UTC+0) INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-12-14T17:15:22,979Z (UTC+0) INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-12-14T17:15:23,090Z (UTC+0) INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-12-14T17:15:23,091Z (UTC+0) INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1375 ms
+2021-12-14T17:15:23,112Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-12-14T17:15:23,330Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-12-14T17:15:23,335Z (UTC+0) INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/dasproject?serverTimezone=UTC'
+2021-12-14T17:15:23,403Z (UTC+0) WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-14T17:15:23,444Z (UTC+0) INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-14T17:15:23,478Z (UTC+0) INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-12-14T17:15:23,563Z (UTC+0) INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-14T17:15:23,641Z (UTC+0) INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-12-14T17:15:24,248Z (UTC+0) INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-14T17:15:24,254Z (UTC+0) INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-14T17:15:25,050Z (UTC+0) INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-12-14T17:15:25,076Z (UTC+0) INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2021-12-14T17:15:25,579Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/resources/**'] with []
+2021-12-14T17:15:25,579Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/static/**'] with []
+2021-12-14T17:15:25,579Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/webjars/**'] with []
+2021-12-14T17:15:25,601Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@13f6fa0, org.springframework.security.web.context.SecurityContextPersistenceFilter@2053f43d, org.springframework.security.web.header.HeaderWriterFilter@2854eaa7, org.springframework.security.web.csrf.CsrfFilter@3ca817ad, org.springframework.security.web.authentication.logout.LogoutFilter@48ec7c92, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6cc13029, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6e9f959e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@f15083a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@16da97f9, org.springframework.security.web.session.SessionManagementFilter@b923b74, org.springframework.security.web.access.ExceptionTranslationFilter@9b0d6fc, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3dc6e943]
+2021-12-14T17:15:25,661Z (UTC+0) INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-12-14T17:15:25,674Z (UTC+0) INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-14T17:15:25,735Z (UTC+0) INFO  com.das.project.AppDAS - Started AppDAS in 4.395 seconds (JVM running for 5.195)
+2021-12-14T17:15:25,737Z (UTC+0) INFO  com.das.project.config.DbInit - setup initial data
+2021-12-14T17:15:25,782Z (UTC+0) INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-12-14T17:15:25,799Z (UTC+0) ERROR org.springframework.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:794)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.das.project.AppDAS.main(AppDAS.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: com.das.project.controller.exception.ResourceAlreadyExistsException: privilege already exists
+	at com.das.project.config.DbInit.lambda$createPrivilegeIfNotFound$3(DbInit.java:251)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at com.das.project.config.DbInit.createPrivilegeIfNotFound(DbInit.java:250)
+	at com.das.project.config.DbInit.lambda$initialData$0(DbInit.java:67)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:791)
+	... 10 common frames omitted
+2021-12-14T17:15:25,844Z (UTC+0) INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-14T17:15:25,846Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-12-14T17:15:25,852Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-12-14T17:22:40,630Z (UTC+0) INFO  com.das.project.AppDAS - Starting AppDAS using Java 16.0.1 on DESKTOP-NLM7RKR with PID 21848 (D:\Repository\DASMyProject\target\classes started by Razvi in D:\Repository\DASMyProject)
+2021-12-14T17:22:40,631Z (UTC+0) INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2021-12-14T17:22:40,632Z (UTC+0) INFO  com.das.project.AppDAS - No active profile set, falling back to default profiles: default
+2021-12-14T17:22:40,669Z (UTC+0) INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-14T17:22:40,670Z (UTC+0) INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-14T17:22:41,416Z (UTC+0) INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-14T17:22:41,473Z (UTC+0) INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 51 ms. Found 8 JPA repository interfaces.
+2021-12-14T17:22:41,937Z (UTC+0) INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-12-14T17:22:41,942Z (UTC+0) INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-14T17:22:41,943Z (UTC+0) INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-12-14T17:22:41,943Z (UTC+0) INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-12-14T17:22:42,051Z (UTC+0) INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-12-14T17:22:42,051Z (UTC+0) INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1381 ms
+2021-12-14T17:22:42,072Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-12-14T17:22:42,287Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-12-14T17:22:42,290Z (UTC+0) INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/dasproject?serverTimezone=UTC'
+2021-12-14T17:22:42,352Z (UTC+0) WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-14T17:22:42,396Z (UTC+0) INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-14T17:22:42,432Z (UTC+0) INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-12-14T17:22:42,512Z (UTC+0) INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-14T17:22:42,589Z (UTC+0) INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-12-14T17:22:43,169Z (UTC+0) INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-14T17:22:43,175Z (UTC+0) INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-14T17:22:43,937Z (UTC+0) INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-12-14T17:22:43,965Z (UTC+0) INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2021-12-14T17:22:44,448Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/resources/**'] with []
+2021-12-14T17:22:44,449Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/static/**'] with []
+2021-12-14T17:22:44,449Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/webjars/**'] with []
+2021-12-14T17:22:44,470Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@8529e99, org.springframework.security.web.context.SecurityContextPersistenceFilter@49dca85f, org.springframework.security.web.header.HeaderWriterFilter@55a4295d, org.springframework.security.web.csrf.CsrfFilter@f15083a, org.springframework.security.web.authentication.logout.LogoutFilter@6731f1c4, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@996db68, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@572d38b5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1db8c428, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@35c04600, org.springframework.security.web.session.SessionManagementFilter@166576c9, org.springframework.security.web.access.ExceptionTranslationFilter@8562b7b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@34d6b1c3]
+2021-12-14T17:22:44,529Z (UTC+0) INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-12-14T17:22:44,542Z (UTC+0) INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-14T17:22:44,594Z (UTC+0) INFO  com.das.project.AppDAS - Started AppDAS in 4.329 seconds (JVM running for 5.171)
+2021-12-14T17:22:44,596Z (UTC+0) INFO  com.das.project.config.DbInit - setup initial data
+2021-12-14T17:22:44,638Z (UTC+0) INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-12-14T17:22:44,652Z (UTC+0) ERROR org.springframework.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:794)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.das.project.AppDAS.main(AppDAS.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: com.das.project.controller.exception.ResourceAlreadyExistsException: privilege already exists
+	at com.das.project.config.DbInit.lambda$createPrivilegeIfNotFound$3(DbInit.java:251)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at com.das.project.config.DbInit.createPrivilegeIfNotFound(DbInit.java:250)
+	at com.das.project.config.DbInit.lambda$initialData$0(DbInit.java:67)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:791)
+	... 10 common frames omitted
+2021-12-14T17:22:44,695Z (UTC+0) INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-14T17:22:44,698Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-12-14T17:22:44,702Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-12-14T17:28:30,520Z (UTC+0) INFO  com.das.project.AppDAS - Starting AppDAS using Java 16.0.1 on DESKTOP-NLM7RKR with PID 21956 (D:\Repository\DASMyProject\target\classes started by Razvi in D:\Repository\DASMyProject)
+2021-12-14T17:28:30,521Z (UTC+0) INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2021-12-14T17:28:30,522Z (UTC+0) INFO  com.das.project.AppDAS - No active profile set, falling back to default profiles: default
+2021-12-14T17:28:30,557Z (UTC+0) INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-14T17:28:30,557Z (UTC+0) INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-14T17:28:31,292Z (UTC+0) INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-14T17:28:31,344Z (UTC+0) INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 47 ms. Found 8 JPA repository interfaces.
+2021-12-14T17:28:31,802Z (UTC+0) INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-12-14T17:28:31,808Z (UTC+0) INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-14T17:28:31,809Z (UTC+0) INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-12-14T17:28:31,809Z (UTC+0) INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-12-14T17:28:31,913Z (UTC+0) INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-12-14T17:28:31,914Z (UTC+0) INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1355 ms
+2021-12-14T17:28:31,935Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-12-14T17:28:32,153Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-12-14T17:28:32,157Z (UTC+0) INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/dasproject?serverTimezone=UTC'
+2021-12-14T17:28:32,221Z (UTC+0) WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-14T17:28:32,272Z (UTC+0) INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-14T17:28:32,312Z (UTC+0) INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-12-14T17:28:32,398Z (UTC+0) INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-14T17:28:32,475Z (UTC+0) INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-12-14T17:28:33,076Z (UTC+0) INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-14T17:28:33,082Z (UTC+0) INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-14T17:28:33,868Z (UTC+0) INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-12-14T17:28:33,892Z (UTC+0) INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2021-12-14T17:28:34,377Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/resources/**'] with []
+2021-12-14T17:28:34,377Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/static/**'] with []
+2021-12-14T17:28:34,377Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/webjars/**'] with []
+2021-12-14T17:28:34,398Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5bb2d89, org.springframework.security.web.context.SecurityContextPersistenceFilter@70f51ef1, org.springframework.security.web.header.HeaderWriterFilter@154ed38e, org.springframework.security.web.csrf.CsrfFilter@2b26df82, org.springframework.security.web.authentication.logout.LogoutFilter@6bbbe772, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3dc324d1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7e5b6125, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6d505510, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@c6fb2f1, org.springframework.security.web.session.SessionManagementFilter@7c628e7e, org.springframework.security.web.access.ExceptionTranslationFilter@57550a84, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@216f12d7]
+2021-12-14T17:28:34,455Z (UTC+0) INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-12-14T17:28:34,468Z (UTC+0) INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-14T17:28:34,520Z (UTC+0) INFO  com.das.project.AppDAS - Started AppDAS in 4.309 seconds (JVM running for 5.099)
+2021-12-14T17:28:34,522Z (UTC+0) INFO  com.das.project.config.DbInit - setup initial data
+2021-12-14T17:28:34,561Z (UTC+0) INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-12-14T17:28:34,575Z (UTC+0) ERROR org.springframework.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:794)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.das.project.AppDAS.main(AppDAS.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: com.das.project.controller.exception.ResourceAlreadyExistsException: privilege already exists
+	at com.das.project.config.DbInit.lambda$createPrivilegeIfNotFound$3(DbInit.java:251)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at com.das.project.config.DbInit.createPrivilegeIfNotFound(DbInit.java:250)
+	at com.das.project.config.DbInit.lambda$initialData$0(DbInit.java:67)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:791)
+	... 10 common frames omitted
+2021-12-14T17:28:34,616Z (UTC+0) INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-14T17:28:34,618Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-12-14T17:28:34,623Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-12-14T17:49:42,185Z (UTC+0) INFO  com.das.project.AppDAS - Starting AppDAS using Java 16.0.1 on DESKTOP-NLM7RKR with PID 24164 (D:\Repository\DASMyProject\target\classes started by Razvi in D:\Repository\DASMyProject)
+2021-12-14T17:49:42,185Z (UTC+0) INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2021-12-14T17:49:42,187Z (UTC+0) INFO  com.das.project.AppDAS - No active profile set, falling back to default profiles: default
+2021-12-14T17:49:42,219Z (UTC+0) INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-14T17:49:42,219Z (UTC+0) INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-14T17:49:42,961Z (UTC+0) INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-14T17:49:43,013Z (UTC+0) INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 46 ms. Found 8 JPA repository interfaces.
+2021-12-14T17:49:43,442Z (UTC+0) INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-12-14T17:49:43,448Z (UTC+0) INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-14T17:49:43,448Z (UTC+0) INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-12-14T17:49:43,448Z (UTC+0) INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-12-14T17:49:43,538Z (UTC+0) INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-12-14T17:49:43,538Z (UTC+0) INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1319 ms
+2021-12-14T17:49:43,560Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-12-14T17:49:43,764Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-12-14T17:49:43,768Z (UTC+0) INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/dasproject?serverTimezone=UTC'
+2021-12-14T17:49:43,831Z (UTC+0) WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-14T17:49:43,872Z (UTC+0) INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-14T17:49:43,906Z (UTC+0) INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-12-14T17:49:43,982Z (UTC+0) INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-14T17:49:44,055Z (UTC+0) INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-12-14T17:49:44,725Z (UTC+0) INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-14T17:49:44,731Z (UTC+0) INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-14T17:49:45,472Z (UTC+0) INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-12-14T17:49:45,498Z (UTC+0) INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2021-12-14T17:49:46,008Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/resources/**'] with []
+2021-12-14T17:49:46,008Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/static/**'] with []
+2021-12-14T17:49:46,008Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/webjars/**'] with []
+2021-12-14T17:49:46,029Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2732e14b, org.springframework.security.web.context.SecurityContextPersistenceFilter@5fd14503, org.springframework.security.web.header.HeaderWriterFilter@1fdd46a5, org.springframework.security.web.csrf.CsrfFilter@2854eaa7, org.springframework.security.web.authentication.logout.LogoutFilter@1db8c428, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@72b99435, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2d46280b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@55a4295d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7b8f293, org.springframework.security.web.session.SessionManagementFilter@dbf4bc4, org.springframework.security.web.access.ExceptionTranslationFilter@2dff71b2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1dd84b6d]
+2021-12-14T17:49:46,088Z (UTC+0) INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-12-14T17:49:46,101Z (UTC+0) INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-14T17:49:46,160Z (UTC+0) INFO  com.das.project.AppDAS - Started AppDAS in 4.286 seconds (JVM running for 5.086)
+2021-12-14T17:49:46,162Z (UTC+0) INFO  com.das.project.config.DbInit - setup initial data
+2021-12-14T17:49:46,203Z (UTC+0) INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-12-14T17:49:46,216Z (UTC+0) ERROR org.springframework.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:794)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.das.project.AppDAS.main(AppDAS.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: com.das.project.controller.exception.ResourceAlreadyExistsException: privilege already exists
+	at com.das.project.config.DbInit.lambda$createPrivilegeIfNotFound$3(DbInit.java:251)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at com.das.project.config.DbInit.createPrivilegeIfNotFound(DbInit.java:250)
+	at com.das.project.config.DbInit.lambda$initialData$0(DbInit.java:67)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:791)
+	... 10 common frames omitted
+2021-12-14T17:49:46,262Z (UTC+0) INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-14T17:49:46,264Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-12-14T17:49:46,270Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-12-14T17:50:44,818Z (UTC+0) INFO  com.das.project.AppDAS - Starting AppDAS using Java 16.0.1 on DESKTOP-NLM7RKR with PID 12392 (D:\Repository\DASMyProject\target\classes started by Razvi in D:\Repository\DASMyProject)
+2021-12-14T17:50:44,819Z (UTC+0) INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2021-12-14T17:50:44,821Z (UTC+0) INFO  com.das.project.AppDAS - No active profile set, falling back to default profiles: default
+2021-12-14T17:50:44,855Z (UTC+0) INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-14T17:50:44,855Z (UTC+0) INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-14T17:50:45,605Z (UTC+0) INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-14T17:50:45,663Z (UTC+0) INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 52 ms. Found 8 JPA repository interfaces.
+2021-12-14T17:50:46,113Z (UTC+0) INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-12-14T17:50:46,120Z (UTC+0) INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-14T17:50:46,120Z (UTC+0) INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-12-14T17:50:46,120Z (UTC+0) INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-12-14T17:50:46,213Z (UTC+0) INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-12-14T17:50:46,214Z (UTC+0) INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1359 ms
+2021-12-14T17:50:46,235Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-12-14T17:50:46,452Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-12-14T17:50:46,456Z (UTC+0) INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/dasproject?serverTimezone=UTC'
+2021-12-14T17:50:46,521Z (UTC+0) WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-14T17:50:46,563Z (UTC+0) INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-14T17:50:46,602Z (UTC+0) INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-12-14T17:50:46,693Z (UTC+0) INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-14T17:50:46,767Z (UTC+0) INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-12-14T17:50:47,419Z (UTC+0) INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-14T17:50:47,425Z (UTC+0) INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-14T17:50:48,275Z (UTC+0) INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-12-14T17:50:48,295Z (UTC+0) INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2021-12-14T17:50:48,802Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/resources/**'] with []
+2021-12-14T17:50:48,803Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/static/**'] with []
+2021-12-14T17:50:48,803Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/webjars/**'] with []
+2021-12-14T17:50:48,824Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1909c9e5, org.springframework.security.web.context.SecurityContextPersistenceFilter@4083a398, org.springframework.security.web.header.HeaderWriterFilter@7f709dc0, org.springframework.security.web.csrf.CsrfFilter@595aa7d1, org.springframework.security.web.authentication.logout.LogoutFilter@1c7d096a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4491838a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@518fb2b1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@79547a87, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2b2483c6, org.springframework.security.web.session.SessionManagementFilter@6709219b, org.springframework.security.web.access.ExceptionTranslationFilter@27a5edc2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@23eaa785]
+2021-12-14T17:50:48,880Z (UTC+0) INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-12-14T17:50:48,893Z (UTC+0) INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-14T17:50:48,946Z (UTC+0) INFO  com.das.project.AppDAS - Started AppDAS in 4.425 seconds (JVM running for 5.603)
+2021-12-14T17:50:59,293Z (UTC+0) INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-14T17:50:59,293Z (UTC+0) INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-12-14T17:50:59,294Z (UTC+0) INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-12-14T17:51:29,159Z (UTC+0) INFO  com.das.project.service.UserService - save user UserDto(firstName=Daniel, lastName=Stoica, email=dan@email.com, password=user, phoneNumber=null)
+2021-12-14T17:51:49,569Z (UTC+0) INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-14T17:51:49,571Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-12-14T17:51:49,576Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-12-14T17:55:47,299Z (UTC+0) INFO  com.das.project.AppDAS - Starting AppDAS using Java 16.0.1 on DESKTOP-NLM7RKR with PID 23712 (D:\Repository\DASMyProject\target\classes started by Razvi in D:\Repository\DASMyProject)
+2021-12-14T17:55:47,301Z (UTC+0) INFO  com.das.project.AppDAS - No active profile set, falling back to default profiles: default
+2021-12-14T17:55:47,304Z (UTC+0) INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2021-12-14T17:55:47,339Z (UTC+0) INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-14T17:55:47,339Z (UTC+0) INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-14T17:55:48,072Z (UTC+0) INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-14T17:55:48,124Z (UTC+0) INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 46 ms. Found 8 JPA repository interfaces.
+2021-12-14T17:55:48,581Z (UTC+0) INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-12-14T17:55:48,587Z (UTC+0) INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-14T17:55:48,587Z (UTC+0) INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-12-14T17:55:48,587Z (UTC+0) INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-12-14T17:55:48,695Z (UTC+0) INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-12-14T17:55:48,695Z (UTC+0) INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1356 ms
+2021-12-14T17:55:48,717Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-12-14T17:55:48,927Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-12-14T17:55:48,931Z (UTC+0) INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/dasproject?serverTimezone=UTC'
+2021-12-14T17:55:48,998Z (UTC+0) WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-14T17:55:49,039Z (UTC+0) INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-14T17:55:49,075Z (UTC+0) INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-12-14T17:55:49,151Z (UTC+0) INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-14T17:55:49,224Z (UTC+0) INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-12-14T17:55:49,801Z (UTC+0) INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-14T17:55:49,807Z (UTC+0) INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-14T17:55:50,165Z (UTC+0) WARN  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Cannot deserialize session attribute [SPRING_SECURITY_CONTEXT] for session [C3AA72B7DD9CD10AEEB23FE28FFFE40B]
+2021-12-14T17:55:50,585Z (UTC+0) INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-12-14T17:55:50,613Z (UTC+0) INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2021-12-14T17:55:51,094Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/resources/**'] with []
+2021-12-14T17:55:51,094Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/static/**'] with []
+2021-12-14T17:55:51,094Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/webjars/**'] with []
+2021-12-14T17:55:51,113Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3fdbc845, org.springframework.security.web.context.SecurityContextPersistenceFilter@1e38ef53, org.springframework.security.web.header.HeaderWriterFilter@1f9e2a44, org.springframework.security.web.csrf.CsrfFilter@293f239f, org.springframework.security.web.authentication.logout.LogoutFilter@5c3d0d15, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5d0a2965, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2217f14e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6d38856d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6c8a64f, org.springframework.security.web.session.SessionManagementFilter@6b653fd8, org.springframework.security.web.access.ExceptionTranslationFilter@2236dce1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1d3641c2]
+2021-12-14T17:55:51,171Z (UTC+0) INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-12-14T17:55:51,183Z (UTC+0) INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-14T17:55:51,235Z (UTC+0) INFO  com.das.project.AppDAS - Started AppDAS in 4.24 seconds (JVM running for 5.007)
+2021-12-14T17:55:51,237Z (UTC+0) INFO  com.das.project.config.DbInit - setup initial data
+2021-12-14T17:55:51,286Z (UTC+0) INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-12-14T17:55:51,300Z (UTC+0) ERROR org.springframework.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:794)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.das.project.AppDAS.main(AppDAS.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: com.das.project.controller.exception.ResourceAlreadyExistsException: privilege already exists
+	at com.das.project.config.DbInit.lambda$createPrivilegeIfNotFound$3(DbInit.java:251)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at com.das.project.config.DbInit.createPrivilegeIfNotFound(DbInit.java:250)
+	at com.das.project.config.DbInit.lambda$initialData$0(DbInit.java:67)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:791)
+	... 10 common frames omitted
+2021-12-14T17:55:51,346Z (UTC+0) INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-14T17:55:51,348Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-12-14T17:55:51,353Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-12-14T18:07:10,637Z (UTC+0) INFO  com.das.project.AppDAS - Starting AppDAS using Java 16.0.1 on DESKTOP-NLM7RKR with PID 9436 (D:\Repository\DASMyProject\target\classes started by Razvi in D:\Repository\DASMyProject)
+2021-12-14T18:07:10,637Z (UTC+0) INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2021-12-14T18:07:10,639Z (UTC+0) INFO  com.das.project.AppDAS - No active profile set, falling back to default profiles: default
+2021-12-14T18:07:10,672Z (UTC+0) INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-14T18:07:10,672Z (UTC+0) INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-14T18:07:11,412Z (UTC+0) INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-14T18:07:11,466Z (UTC+0) INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 49 ms. Found 8 JPA repository interfaces.
+2021-12-14T18:07:11,922Z (UTC+0) INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-12-14T18:07:11,927Z (UTC+0) INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-14T18:07:11,927Z (UTC+0) INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-12-14T18:07:11,927Z (UTC+0) INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-12-14T18:07:12,038Z (UTC+0) INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-12-14T18:07:12,038Z (UTC+0) INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1365 ms
+2021-12-14T18:07:12,060Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-12-14T18:07:12,273Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-12-14T18:07:12,276Z (UTC+0) INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/dasproject?serverTimezone=UTC'
+2021-12-14T18:07:12,336Z (UTC+0) WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-14T18:07:12,376Z (UTC+0) INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-14T18:07:12,407Z (UTC+0) INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-12-14T18:07:12,485Z (UTC+0) INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-14T18:07:12,559Z (UTC+0) INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-12-14T18:07:13,154Z (UTC+0) INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-14T18:07:13,160Z (UTC+0) INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-14T18:07:13,941Z (UTC+0) INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-12-14T18:07:13,970Z (UTC+0) INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2021-12-14T18:07:14,475Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/resources/**'] with []
+2021-12-14T18:07:14,475Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/static/**'] with []
+2021-12-14T18:07:14,476Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/webjars/**'] with []
+2021-12-14T18:07:14,496Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6df91345, org.springframework.security.web.context.SecurityContextPersistenceFilter@5d8791f0, org.springframework.security.web.header.HeaderWriterFilter@54b26e8f, org.springframework.security.web.csrf.CsrfFilter@79d8145b, org.springframework.security.web.authentication.logout.LogoutFilter@24b6906a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4d0fc1fc, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@77a03abb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@57550a84, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@306b95f3, org.springframework.security.web.session.SessionManagementFilter@3901dad4, org.springframework.security.web.access.ExceptionTranslationFilter@7edd9d17, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4532ebfe]
+2021-12-14T18:07:14,555Z (UTC+0) INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-12-14T18:07:14,569Z (UTC+0) INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-14T18:07:14,627Z (UTC+0) INFO  com.das.project.AppDAS - Started AppDAS in 4.292 seconds (JVM running for 5.1)
+2021-12-14T18:07:14,629Z (UTC+0) INFO  com.das.project.config.DbInit - setup initial data
+2021-12-14T18:07:14,677Z (UTC+0) INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-12-14T18:07:14,692Z (UTC+0) ERROR org.springframework.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:794)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.das.project.AppDAS.main(AppDAS.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: com.das.project.controller.exception.ResourceAlreadyExistsException: privilege already exists
+	at com.das.project.config.DbInit.lambda$createPrivilegeIfNotFound$3(DbInit.java:251)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at com.das.project.config.DbInit.createPrivilegeIfNotFound(DbInit.java:250)
+	at com.das.project.config.DbInit.lambda$initialData$0(DbInit.java:67)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:791)
+	... 10 common frames omitted
+2021-12-14T18:07:14,737Z (UTC+0) INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-14T18:07:14,739Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-12-14T18:07:14,744Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-12-14T18:09:03,768Z (UTC+0) INFO  com.das.project.AppDAS - Starting AppDAS using Java 16.0.1 on DESKTOP-NLM7RKR with PID 22348 (D:\Repository\DASMyProject\target\classes started by Razvi in D:\Repository\DASMyProject)
+2021-12-14T18:09:03,770Z (UTC+0) INFO  com.das.project.AppDAS - No active profile set, falling back to default profiles: default
+2021-12-14T18:09:03,770Z (UTC+0) INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2021-12-14T18:09:03,803Z (UTC+0) INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-14T18:09:03,804Z (UTC+0) INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-14T18:09:04,536Z (UTC+0) INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-14T18:09:04,590Z (UTC+0) INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 48 ms. Found 8 JPA repository interfaces.
+2021-12-14T18:09:05,076Z (UTC+0) INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-12-14T18:09:05,082Z (UTC+0) INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-14T18:09:05,082Z (UTC+0) INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-12-14T18:09:05,082Z (UTC+0) INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-12-14T18:09:05,180Z (UTC+0) INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-12-14T18:09:05,180Z (UTC+0) INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1376 ms
+2021-12-14T18:09:05,203Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-12-14T18:09:05,435Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-12-14T18:09:05,438Z (UTC+0) INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/dasproject?serverTimezone=UTC'
+2021-12-14T18:09:05,500Z (UTC+0) WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-14T18:09:05,541Z (UTC+0) INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-14T18:09:05,575Z (UTC+0) INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-12-14T18:09:05,655Z (UTC+0) INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-14T18:09:05,732Z (UTC+0) INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-12-14T18:09:06,328Z (UTC+0) INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-14T18:09:06,334Z (UTC+0) INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-14T18:09:07,137Z (UTC+0) INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-12-14T18:09:07,166Z (UTC+0) INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2021-12-14T18:09:07,704Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/resources/**'] with []
+2021-12-14T18:09:07,704Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/static/**'] with []
+2021-12-14T18:09:07,704Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/webjars/**'] with []
+2021-12-14T18:09:07,726Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4532ebfe, org.springframework.security.web.context.SecurityContextPersistenceFilter@7edd9d17, org.springframework.security.web.header.HeaderWriterFilter@290882b3, org.springframework.security.web.csrf.CsrfFilter@2078ceb9, org.springframework.security.web.authentication.logout.LogoutFilter@16189728, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@21b891d6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@54b26e8f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@c89eb42, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5aaab794, org.springframework.security.web.session.SessionManagementFilter@3c22e80e, org.springframework.security.web.access.ExceptionTranslationFilter@6d3d09b1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@475fbe88]
+2021-12-14T18:09:07,787Z (UTC+0) INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-12-14T18:09:07,801Z (UTC+0) INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-14T18:09:07,856Z (UTC+0) INFO  com.das.project.AppDAS - Started AppDAS in 4.43 seconds (JVM running for 5.331)
+2021-12-14T18:09:07,858Z (UTC+0) INFO  com.das.project.config.DbInit - setup initial data
+2021-12-14T18:09:07,901Z (UTC+0) INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-12-14T18:09:07,916Z (UTC+0) ERROR org.springframework.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:794)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.das.project.AppDAS.main(AppDAS.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: com.das.project.controller.exception.ResourceAlreadyExistsException: privilege already exists
+	at com.das.project.config.DbInit.lambda$createPrivilegeIfNotFound$3(DbInit.java:253)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at com.das.project.config.DbInit.createPrivilegeIfNotFound(DbInit.java:252)
+	at com.das.project.config.DbInit.lambda$initialData$0(DbInit.java:69)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:791)
+	... 10 common frames omitted
+2021-12-14T18:09:07,959Z (UTC+0) INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-14T18:09:07,961Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-12-14T18:09:07,966Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-12-14T18:12:58,928Z (UTC+0) INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2021-12-14T18:12:58,928Z (UTC+0) INFO  com.das.project.AppDAS - Starting AppDAS using Java 16.0.1 on DESKTOP-NLM7RKR with PID 12392 (D:\Repository\DASMyProject\target\classes started by Razvi in D:\Repository\DASMyProject)
+2021-12-14T18:12:58,930Z (UTC+0) INFO  com.das.project.AppDAS - No active profile set, falling back to default profiles: default
+2021-12-14T18:12:58,963Z (UTC+0) INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-14T18:12:58,963Z (UTC+0) INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-14T18:12:59,696Z (UTC+0) INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-14T18:12:59,751Z (UTC+0) INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 49 ms. Found 8 JPA repository interfaces.
+2021-12-14T18:13:00,222Z (UTC+0) INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-12-14T18:13:00,228Z (UTC+0) INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-14T18:13:00,228Z (UTC+0) INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-12-14T18:13:00,229Z (UTC+0) INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-12-14T18:13:00,339Z (UTC+0) INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-12-14T18:13:00,339Z (UTC+0) INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1376 ms
+2021-12-14T18:13:00,363Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-12-14T18:13:00,577Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-12-14T18:13:00,581Z (UTC+0) INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/dasproject?serverTimezone=UTC'
+2021-12-14T18:13:00,638Z (UTC+0) WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-14T18:13:00,682Z (UTC+0) INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-14T18:13:00,716Z (UTC+0) INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-12-14T18:13:00,799Z (UTC+0) INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-14T18:13:00,873Z (UTC+0) INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-12-14T18:13:01,465Z (UTC+0) INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-14T18:13:01,472Z (UTC+0) INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-14T18:13:02,271Z (UTC+0) INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-12-14T18:13:02,295Z (UTC+0) INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2021-12-14T18:13:02,789Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/resources/**'] with []
+2021-12-14T18:13:02,789Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/static/**'] with []
+2021-12-14T18:13:02,789Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/webjars/**'] with []
+2021-12-14T18:13:02,808Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@21b891d6, org.springframework.security.web.context.SecurityContextPersistenceFilter@132d98db, org.springframework.security.web.header.HeaderWriterFilter@4c1c7796, org.springframework.security.web.csrf.CsrfFilter@7cde78a3, org.springframework.security.web.authentication.logout.LogoutFilter@4e420a87, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@784af6a2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7f7b9bf6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7a8a634a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4532ebfe, org.springframework.security.web.session.SessionManagementFilter@39d71e04, org.springframework.security.web.access.ExceptionTranslationFilter@7a7d4650, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1fadc5a0]
+2021-12-14T18:13:02,863Z (UTC+0) INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-12-14T18:13:02,876Z (UTC+0) INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-14T18:13:02,928Z (UTC+0) INFO  com.das.project.AppDAS - Started AppDAS in 4.331 seconds (JVM running for 5.133)
+2021-12-14T18:13:02,930Z (UTC+0) INFO  com.das.project.config.DbInit - setup initial data
+2021-12-14T18:13:02,970Z (UTC+0) INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-12-14T18:13:02,986Z (UTC+0) ERROR org.springframework.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:794)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.das.project.AppDAS.main(AppDAS.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: com.das.project.controller.exception.ResourceAlreadyExistsException: privilege already exists
+	at com.das.project.config.DbInit.lambda$createPrivilegeIfNotFound$3(DbInit.java:251)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at com.das.project.config.DbInit.createPrivilegeIfNotFound(DbInit.java:250)
+	at com.das.project.config.DbInit.lambda$initialData$0(DbInit.java:67)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:791)
+	... 10 common frames omitted
+2021-12-14T18:13:03,032Z (UTC+0) INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-14T18:13:03,034Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-12-14T18:13:03,039Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-12-14T18:13:57,115Z (UTC+0) INFO  com.das.project.AppDAS - Starting AppDAS using Java 16.0.1 on DESKTOP-NLM7RKR with PID 24544 (D:\Repository\DASMyProject\target\classes started by Razvi in D:\Repository\DASMyProject)
+2021-12-14T18:13:57,116Z (UTC+0) INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2021-12-14T18:13:57,117Z (UTC+0) INFO  com.das.project.AppDAS - No active profile set, falling back to default profiles: default
+2021-12-14T18:13:57,153Z (UTC+0) INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-14T18:13:57,153Z (UTC+0) INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-14T18:13:57,877Z (UTC+0) INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-14T18:13:57,933Z (UTC+0) INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 50 ms. Found 8 JPA repository interfaces.
+2021-12-14T18:13:58,382Z (UTC+0) INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-12-14T18:13:58,387Z (UTC+0) INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-14T18:13:58,388Z (UTC+0) INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-12-14T18:13:58,388Z (UTC+0) INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-12-14T18:13:58,474Z (UTC+0) INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-12-14T18:13:58,474Z (UTC+0) INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1320 ms
+2021-12-14T18:13:58,495Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-12-14T18:13:58,706Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-12-14T18:13:58,709Z (UTC+0) INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/dasproject?serverTimezone=UTC'
+2021-12-14T18:13:58,769Z (UTC+0) WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-14T18:13:58,809Z (UTC+0) INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-14T18:13:58,846Z (UTC+0) INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-12-14T18:13:58,925Z (UTC+0) INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-14T18:13:58,997Z (UTC+0) INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-12-14T18:13:59,627Z (UTC+0) INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-14T18:13:59,634Z (UTC+0) INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-14T18:14:00,425Z (UTC+0) INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-12-14T18:14:00,457Z (UTC+0) INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2021-12-14T18:14:00,931Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/resources/**'] with []
+2021-12-14T18:14:00,931Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/static/**'] with []
+2021-12-14T18:14:00,931Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/webjars/**'] with []
+2021-12-14T18:14:00,958Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@53019a4d, org.springframework.security.web.context.SecurityContextPersistenceFilter@6b9ee3a0, org.springframework.security.web.header.HeaderWriterFilter@5a50a9ee, org.springframework.security.web.csrf.CsrfFilter@74cc59e8, org.springframework.security.web.authentication.logout.LogoutFilter@4f846871, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@13eddec9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2d8445f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6a43c80a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5523e817, org.springframework.security.web.session.SessionManagementFilter@61f28b7c, org.springframework.security.web.access.ExceptionTranslationFilter@2accc691, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@72b99435]
+2021-12-14T18:14:01,029Z (UTC+0) INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-12-14T18:14:01,042Z (UTC+0) INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-14T18:14:01,095Z (UTC+0) INFO  com.das.project.AppDAS - Started AppDAS in 4.331 seconds (JVM running for 5.225)
+2021-12-14T18:14:01,097Z (UTC+0) INFO  com.das.project.config.DbInit - setup initial data
+2021-12-14T18:14:01,141Z (UTC+0) INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-12-14T18:14:01,155Z (UTC+0) ERROR org.springframework.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:794)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.das.project.AppDAS.main(AppDAS.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: com.das.project.controller.exception.ResourceAlreadyExistsException: privilege already exists
+	at com.das.project.config.DbInit.lambda$createPrivilegeIfNotFound$3(DbInit.java:251)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at com.das.project.config.DbInit.createPrivilegeIfNotFound(DbInit.java:250)
+	at com.das.project.config.DbInit.lambda$initialData$0(DbInit.java:67)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:791)
+	... 10 common frames omitted
+2021-12-14T18:14:01,200Z (UTC+0) INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-14T18:14:01,203Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-12-14T18:14:01,208Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-12-14T18:14:39,176Z (UTC+0) INFO  com.das.project.AppDAS - Starting AppDAS using Java 16.0.1 on DESKTOP-NLM7RKR with PID 23368 (D:\Repository\DASMyProject\target\classes started by Razvi in D:\Repository\DASMyProject)
+2021-12-14T18:14:39,175Z (UTC+0) INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2021-12-14T18:14:39,178Z (UTC+0) INFO  com.das.project.AppDAS - No active profile set, falling back to default profiles: default
+2021-12-14T18:14:39,225Z (UTC+0) INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-14T18:14:39,225Z (UTC+0) INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-14T18:14:39,943Z (UTC+0) INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-14T18:14:39,998Z (UTC+0) INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 50 ms. Found 8 JPA repository interfaces.
+2021-12-14T18:14:40,439Z (UTC+0) INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-12-14T18:14:40,444Z (UTC+0) INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-14T18:14:40,444Z (UTC+0) INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-12-14T18:14:40,444Z (UTC+0) INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-12-14T18:14:40,537Z (UTC+0) INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-12-14T18:14:40,537Z (UTC+0) INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1312 ms
+2021-12-14T18:14:40,561Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-12-14T18:14:40,772Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-12-14T18:14:40,776Z (UTC+0) INFO  org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/dasproject?serverTimezone=UTC'
+2021-12-14T18:14:40,836Z (UTC+0) WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-14T18:14:40,876Z (UTC+0) INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-14T18:14:40,908Z (UTC+0) INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-12-14T18:14:40,984Z (UTC+0) INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-14T18:14:41,064Z (UTC+0) INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-12-14T18:14:45,086Z (UTC+0) INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-14T18:14:45,092Z (UTC+0) INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-14T18:14:45,860Z (UTC+0) INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-12-14T18:14:45,880Z (UTC+0) INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2021-12-14T18:14:46,383Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/resources/**'] with []
+2021-12-14T18:14:46,383Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/static/**'] with []
+2021-12-14T18:14:46,383Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure Ant [pattern='/webjars/**'] with []
+2021-12-14T18:14:46,405Z (UTC+0) INFO  org.springframework.security.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3997946a, org.springframework.security.web.context.SecurityContextPersistenceFilter@1e8dad87, org.springframework.security.web.header.HeaderWriterFilter@3a25d1a6, org.springframework.security.web.csrf.CsrfFilter@74c27b8b, org.springframework.security.web.authentication.logout.LogoutFilter@8de1506, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6be4efe9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5690c69e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@69b4e4cd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7726d8e2, org.springframework.security.web.session.SessionManagementFilter@7f474eba, org.springframework.security.web.access.ExceptionTranslationFilter@507a620c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7e5b6125]
+2021-12-14T18:14:46,466Z (UTC+0) INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-12-14T18:14:46,479Z (UTC+0) INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-14T18:14:46,533Z (UTC+0) INFO  com.das.project.AppDAS - Started AppDAS in 7.665 seconds (JVM running for 8.44)
+2021-12-14T18:14:46,534Z (UTC+0) INFO  com.das.project.config.DbInit - setup initial data
+2021-12-14T18:14:59,359Z (UTC+0) INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-14T18:14:59,359Z (UTC+0) INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-12-14T18:14:59,360Z (UTC+0) INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-12-14T18:15:13,090Z (UTC+0) INFO  com.das.project.service.UserService - save user UserDto(firstName=Daniel, lastName=Stoica, email=dan@email.com, password=user, phoneNumber=null)
+2021-12-14T18:16:02,204Z (UTC+0) INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-14T18:16:02,206Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-12-14T18:16:02,210Z (UTC+0) INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

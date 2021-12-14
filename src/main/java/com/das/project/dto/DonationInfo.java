@@ -9,7 +9,7 @@ import lombok.Setter;
 public class DonationInfo {
 
     // logged user id
-    private UserInfo user;
+    private UserInfoDto user;
     private Product product;
     private String details;
 }

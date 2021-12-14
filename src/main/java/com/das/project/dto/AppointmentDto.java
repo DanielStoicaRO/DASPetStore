@@ -8,6 +8,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.util.Set;
+
 @NoArgsConstructor
 @AllArgsConstructor
 @Getter
@@ -35,5 +36,4 @@ public class AppointmentDto {
     public void setPets(Set<Pet> pets) {
         this.pets = pets;
     }
-
 }

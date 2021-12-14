@@ -1,6 +1,5 @@
 package com.das.project.model;
 
-
 import javax.persistence.*;
 import java.util.HashSet;
 import java.util.Objects;
@@ -9,6 +8,8 @@ import java.util.Set;
 @Entity
 @Table(name = "user")
 public class User {
+
+    // fields
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -20,10 +21,15 @@ public class User {
     private String phoneNumber;
     private Boolean enabled;
 
+    // relationships
+
     @OneToMany(mappedBy = "user",
             fetch = FetchType.LAZY)
     private Set<Appointment> appointments = new HashSet<>();
 
+    // display user adoptions
+    // user knows his adoptions
+    // bidirectional one to many
     @OneToMany(mappedBy = "user",
             fetch = FetchType.LAZY)
     private Set<Adoption> adoptions = new HashSet<>();
@@ -61,11 +67,13 @@ public class User {
     public void addAdoption(Adoption adoption) {
         // add child to parent
         this.adoptions.add(adoption);
+
         // add parent to child
         adoption.setUser(this);
     }
 
     // helper methods
+
     public void addAppointment(Appointment appointment) {
         this.appointments.add(appointment);
         appointment.setUser(this);
@@ -131,36 +139,12 @@ public class User {
         this.phoneNumber = phoneNumber;
     }
 
-    public Boolean getEnabled() {
+    public Boolean isEnabled() {
         return enabled;
     }
 
     public void setEnabled(Boolean enabled) {
         this.enabled = enabled;
-    }
-
-    public Set<Appointment> getAppointments() {
-        return appointments;
-    }
-
-    public void setAppointments(Set<Appointment> appointments) {
-        this.appointments = appointments;
-    }
-
-    public Set<Adoption> getAdoptions() {
-        return adoptions;
-    }
-
-    public void setAdoptions(Set<Adoption> adoptions) {
-        this.adoptions = adoptions;
-    }
-
-    public Set<Donation> getDonations() {
-        return donations;
-    }
-
-    public void setDonations(Set<Donation> donations) {
-        this.donations = donations;
     }
 
     public Set<Role> getRoles() {
@@ -175,27 +159,35 @@ public class User {
         this.roles.add(role);
     }
 
-    public Boolean isEnabled(){
-        return enabled;
+    public Set<Appointment> getAppointments() {
+        return appointments;
+    }
+
+    public Set<Adoption> getAdoptions() {
+        return adoptions;
+    }
+
+    public Set<Donation> getDonations() {
+        return donations;
     }
 
     @Override
     public String toString() {
-        return "User { " +
-                "id= " + id +
-                ", email= '" + email + '\'' +
-                ", firstName= '" + firstName + '\'' +
-                ", lastName= '" + lastName + '\'' +
-                ", phoneNumber= '" + phoneNumber + '\'' +
-                ", enabled= " + enabled +
+        return "User{" +
+                "id=" + id +
+                ", email='" + email + '\'' +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", phoneNumber='" + phoneNumber + '\'' +
+                ", enabled='" + enabled + '\'' +
                 '}';
     }
 
     @Override
-    public boolean equals(Object obj) {
-        if (this == obj) return true;
-        if (obj == null || getClass() != obj.getClass()) return false;
-        User user = (User) obj;
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        User user = (User) o;
         return Objects.equals(id, user.id);
     }
 

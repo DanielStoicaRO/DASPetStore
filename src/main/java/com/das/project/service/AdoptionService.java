@@ -9,6 +9,7 @@ import com.das.project.repository.AdoptionRepository;
 import com.das.project.repository.UserRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -25,6 +26,7 @@ public class AdoptionService {
     private final UserService userService;
     private final UserRepository userRepository;
 
+    @Autowired
     public AdoptionService(AdoptionRepository adoptionRepository,
                            AdoptionMapper adoptionMapper,
                            UserService userService,
@@ -57,6 +59,4 @@ public class AdoptionService {
                 .map(adoption -> adoptionMapper.toDto(adoption))
                 .collect(Collectors.toList());
     }
-
-
 }

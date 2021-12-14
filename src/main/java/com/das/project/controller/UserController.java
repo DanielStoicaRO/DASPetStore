@@ -15,19 +15,24 @@ public class UserController {
     @Autowired
     private UserService userService;
 
+    // mapping
     @GetMapping("/register")
     public String getRegisterPage(Model model) {
         UserDto userDto = new UserDto();
+        // "userDto" will be used in html
+        // userDto object represents the java instance
         model.addAttribute("userDto", userDto);
+        // folder / page name
         return "user/register";
     }
 
-    @PostMapping("register/add")
+    @PostMapping("/register/add")
     public String register(@ModelAttribute("userDto") UserDto userDto) {
         userService.save(userDto);
         return "redirect:/login";
     }
 
+    // get page
     @GetMapping("/login")
     public String getLoginPage(Model model) {
         UserDto userDto = new UserDto();
@@ -35,10 +40,11 @@ public class UserController {
         return "user/login";
     }
 
+    // action
     @PostMapping("/login")
     public String login(@ModelAttribute("userDto") UserDto userDto) {
         userService.findByEmail(userDto.getEmail());
-        return "redirect:/home";
+        return "redirect: /home";
     }
 
     @GetMapping("/admin")
@@ -46,3 +52,8 @@ public class UserController {
         return "admin/admin";
     }
 }
+
+
+
+
+

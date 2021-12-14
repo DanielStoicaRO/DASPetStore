@@ -1,6 +1,5 @@
 package com.das.project.dto;
 
-
 import lombok.Getter;
 import lombok.Setter;
 
@@ -12,5 +11,4 @@ public class TransferInfo {
 
     private Double amount;
     private LocalDate transferDate;
-
 }

@@ -1,24 +1,24 @@
 package com.das.project.mapper;
 
 import com.das.project.dto.UserDto;
-import com.das.project.dto.UserInfo;
+import com.das.project.dto.UserInfoDto;
 import com.das.project.model.User;
 import org.springframework.stereotype.Component;
 
 @Component
 public class UserMapper {
 
-    public User mapToUser(UserDto userDto){
+    public User mapToUser(UserDto userDto) {
         User user = new User();
         user.setFirstName(userDto.getFirstName());
-        user.setLastName(user.getLastName());
+        user.setLastName(userDto.getLastName());
         user.setEmail(userDto.getEmail());
         user.setPassword(userDto.getPassword());
-        user.setPhoneNumber(user.getPhoneNumber());
+        user.setPhoneNumber(userDto.getPhoneNumber());
         return user;
     }
 
-    public UserDto mapToUserDto(User user){
+    public UserDto mapToUserDto(User user) {
         UserDto userDto = new UserDto();
         userDto.setFirstName(user.getFirstName());
         userDto.setLastName(user.getLastName());
@@ -28,23 +28,22 @@ public class UserMapper {
         return userDto;
     }
 
-    public User mapToUser(UserInfo userInfo){
+    public User mapToUser(UserInfoDto userInfoDto) {
         User user = new User();
-        user.setFirstName(userInfo.getFirstName());
-        user.setLastName(userInfo.getLastName());
-        user.setEmail(userInfo.getEmail());
-        user.setPhoneNumber(userInfo.getPhoneNumber());
+        user.setFirstName(userInfoDto.getFirstName());
+        user.setLastName(userInfoDto.getLastName());
+        user.setEmail(userInfoDto.getEmail());
+        user.setPhoneNumber(userInfoDto.getPhoneNumber());
         return user;
     }
 
-    public UserInfo mapToUserInfo(User user) {
-        UserInfo userInfo = new UserInfo();
-        userInfo.setFirstName(user.getFirstName());
-        userInfo.setLastName(user.getLastName());
-        userInfo.setEmail(user.getEmail());
-        userInfo.setPhoneNumber(user.getPhoneNumber());
-        return userInfo;
+    public UserInfoDto mapToUserInfoDto(User user) {
+        UserInfoDto userInfoDto = new UserInfoDto();
+        userInfoDto.setFirstName(user.getFirstName());
+        userInfoDto.setLastName(user.getLastName());
+        userInfoDto.setEmail(user.getEmail());
+        userInfoDto.setPhoneNumber(user.getPhoneNumber());
+        return userInfoDto;
     }
-
 
 }

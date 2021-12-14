@@ -7,6 +7,7 @@ import javax.persistence.*;
 import java.util.HashSet;
 import java.util.Set;
 
+// lombok annotations
 @Getter
 @Setter
 @Entity
@@ -14,22 +15,29 @@ import java.util.Set;
 public class Pet {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
     private Category category;
     private String description;
     private boolean isAvailable;
+
     private String photo;
 
     @OneToOne(mappedBy = "pet",
             fetch = FetchType.LAZY)
     private Adoption adoption;
 
-    @ManyToMany(mappedBy = "pets",
+    @ManyToMany(
+            mappedBy = "pets",
             fetch = FetchType.LAZY)
     private Set<Appointment> appointments = new HashSet<>();
 
+    //TODO aceasta functie este identica cu setter-i field-urilor?
+//    public void setAdoption(Adoption adoption) {
+//        this.adoption = adoption;
+//        adoption.setPet(this);
+//    }
     public Adoption getAdoption() {
         return adoption;
     }
@@ -39,3 +47,5 @@ public class Pet {
     }
 
 }
+
+

@@ -23,12 +23,12 @@ public class UserPrincipal implements UserDetails {
     // prefix each role name with "ROLE_"
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
-      final Set<GrantedAuthority> authorities = new HashSet<>();
+        final Set<GrantedAuthority> authorities = new HashSet<>();
+        this.roles.forEach(role -> {
+            GrantedAuthority authority = new SimpleGrantedAuthority("ROLE_" + role.getType().name());
+            authorities.add(authority);
+        });
 
-      this.roles.forEach(role -> {
-          GrantedAuthority authority = new SimpleGrantedAuthority("ROLE_" + role.getType().name());
-          authorities.add(authority);
-      });
         return authorities;
     }
 

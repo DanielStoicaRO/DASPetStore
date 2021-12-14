@@ -14,21 +14,19 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.List;
+
 
 @Controller
 public class AppointmentController {
 
-    public final AppointmentService appointmentService;
-    public final UserService userService;
-    public final PetService petService;
+    private final AppointmentService appointmentService;
+    private final UserService userService;
+    private final PetService petService;
 
     @Autowired
-    public AppointmentController(AppointmentService appointmentService,
-                                 UserService userService,
-                                 PetService petService) {
+    public AppointmentController(AppointmentService appointmentService, UserService userService, PetService petService) {
         this.appointmentService = appointmentService;
         this.userService = userService;
         this.petService = petService;
@@ -43,20 +41,17 @@ public class AppointmentController {
     @GetMapping("/appointments/add")
     public String getAppointmentForm(Model model) {
         String email = SecurityContextHolder.getContext().getAuthentication().getName();
-
         User loggedUser = userService.findByEmail(email);
         List<PetDto> pets = petService.getAvailablePets();
-
         AppointmentDto appointmentDto = new AppointmentDto(loggedUser, null, null);
-
         model.addAttribute("appointmentDto", appointmentDto);
         model.addAttribute("loggedUser", loggedUser);
         model.addAttribute("pets", pets);
-        model.addAttribute("LocalDateTime", LocalDateTime.now());
-
+        model.addAttribute("localDateTime", LocalDateTime.now());
         return "appointment/appointment-add";
     }
 
+    //TODO de ce nu putem salva un appointment in baza de date? ne da eroare!
     @PostMapping("/appointments/add")
     public String addAppointmentForm(AppointmentDto appointmentDto) {
         appointmentService.save(appointmentDto);
@@ -75,5 +70,4 @@ public class AppointmentController {
         model.addAttribute("myAppointmentsInfo", myAppointments);
         return "appointment/my-appointments";
     }
-
 }

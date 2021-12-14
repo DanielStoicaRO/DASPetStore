@@ -1,6 +1,5 @@
 package com.das.project.service;
 
-
 import com.das.project.dto.TransferDto;
 import com.das.project.dto.TransferInfo;
 import com.das.project.mapper.TransferMapper;
@@ -27,9 +26,11 @@ public class TransferService {
         this.transferMapper = transferMapper;
     }
 
+
     public Transfer save(TransferDto transferDto) {
         return transferRepository.save(transferMapper.map(transferDto));
     }
+    //TODO ?? Este mai bine ca o functie de save sa returneze un obiect sau void???
 
     public List<TransferDto> findAll() {
         return transferRepository.findAll().stream()
@@ -37,11 +38,10 @@ public class TransferService {
                 .collect(Collectors.toList());
     }
 
-    public Set<TransferInfo> findTransferByUser(User user){
-        return transferRepository.findAll().stream()
+    public Set<TransferInfo> findTransfersByUser(User user){
+       return transferRepository.findAll().stream()
                 .filter(transfer -> transfer.getUser().equals(user))
                 .map(transfer -> transferMapper.mapFromTransferToTransferInfo(transfer))
                 .collect(Collectors.toSet());
     }
-
 }

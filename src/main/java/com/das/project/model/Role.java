@@ -71,15 +71,15 @@ public class Role {
     public String toString() {
         return "Role{" +
                 "id=" + id +
-                ", type=" + type +
+                ", name='" + type + '\'' +
                 '}';
     }
 
     @Override
-    public boolean equals(Object obj) {
-        if (this == obj) return true;
-        if (obj == null || getClass() != obj.getClass()) return false;
-        Role role = (Role) obj;
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Role role = (Role) o;
         return Objects.equals(id, role.id);
     }
 
@@ -87,5 +87,4 @@ public class Role {
     public int hashCode() {
         return Objects.hash(id);
     }
-
 }

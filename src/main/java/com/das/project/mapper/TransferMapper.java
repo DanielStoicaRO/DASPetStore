@@ -12,18 +12,20 @@ public class TransferMapper {
 
     public Transfer map(TransferDto transferDto) {
         Transfer transfer = new Transfer();
-        transfer.setCardHolderName(transferDto.getCardholderName());
+        transfer.setCardholderName(transferDto.getCardholderName());
         transfer.setCardNumber(transferDto.getCardNumber());
         transfer.setCardExpirationDate(LocalDate.parse(transferDto.getCardExpirationDate()));
         transfer.setCvc(transferDto.getCvc());
         transfer.setAmount(Double.valueOf(transferDto.getAmount()));
         transfer.setTransferDate(LocalDate.now());
+//        transfer.setTransferDate(transferDto.getTransferDate());
+
         return transfer;
     }
 
-    public TransferDto map(Transfer transfer){
+    public TransferDto map(Transfer transfer) {
         TransferDto transferDto = new TransferDto();
-        transferDto.setCardholderName(transfer.getCardHolderName());
+        transferDto.setCardholderName(transfer.getCardholderName());
         transferDto.setCardNumber(transfer.getCardNumber());
         transferDto.setCardExpirationDate(String.valueOf(transfer.getCardExpirationDate()));
         transferDto.setCvc(transfer.getCvc());
@@ -32,11 +34,10 @@ public class TransferMapper {
         return transferDto;
     }
 
-    public TransferInfo mapFromTransferToTransferInfo(Transfer transfer){
+    public TransferInfo mapFromTransferToTransferInfo(Transfer transfer) {
         TransferInfo dto = new TransferInfo();
         dto.setTransferDate(transfer.getTransferDate());
         dto.setAmount(transfer.getAmount());
         return dto;
     }
-
 }

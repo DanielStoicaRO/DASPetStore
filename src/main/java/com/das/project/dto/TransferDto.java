@@ -15,5 +15,4 @@ public class TransferDto {
     private String cvc;
     private String amount;
     private LocalDate transferDate;
-
 }

@@ -5,8 +5,9 @@
     <div th:replace="fragments/head-css :: head-css"/>
     <title>Home</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-<!--    <link th:href="@{/static/css/home.css}" rel="stylesheet" />-->
-<!--    <script type="text/javascript" th:src="@{/static/js/home.js}"></script>-->
+    <!--    <link th:href="@{/static/css/home.css}" rel="stylesheet" />-->
+    <!--    <script type="text/javascript" th:src="@{/static/js/home.js}"></script>-->
+
     <style>
         * {
             box-sizing: border-box
@@ -29,7 +30,7 @@
         .slideshow-container {
             max-width: 500px;
             position: center;
-            margin:auto;
+            margin: auto;
         }
 
         /* Next & previous buttons */
@@ -89,7 +90,7 @@
             position: center;
         }
 
-        .container-fluid{
+        .container-fluid {
             padding-bottom: 0px;
             padding-top: 2px;
         }
@@ -132,7 +133,7 @@
 
         #narrow {
             float: left;
-            width: 200px ;
+            width: 200px;
             background: white;
         }
     </style>
@@ -167,7 +168,8 @@
                     <li>
                         <a class="nav-link px-0 align-middle" style="color: darkcyan; font-family: Garamond"
                            th:href="@{/my-donations}">
-                            <i class="fas fa-hand-holding-heart"></i> <span class="ms-1 d-none d-sm-inline">My donations</span>
+                            <i class="fas fa-hand-holding-heart"></i> <span
+                                class="ms-1 d-none d-sm-inline">My donations</span>
                         </a>
                     </li>
 
@@ -175,7 +177,8 @@
                     <li>
                         <a class="nav-link px-0 align-middle" style="color: darkcyan; font-family: Garamond"
                            th:href="@{/my-transfers}">
-                            <i class="fas fa-hand-holding-usd"></i> <span class="ms-1 d-none d-sm-inline">My payments</span>
+                            <i class="fas fa-hand-holding-usd"></i> <span
+                                class="ms-1 d-none d-sm-inline">My payments</span>
                         </a>
                     </li>
 
@@ -183,7 +186,8 @@
                     <li>
                         <a class="nav-link px-0 align-middle" style="color: darkcyan; font-family: Garamond"
                            th:href="@{/my-appointments}">
-                            <i class="fas fa-calendar-day"></i> <span class="ms-1 d-none d-sm-inline">My appointments</span>
+                            <i class="fas fa-calendar-day"></i> <span
+                                class="ms-1 d-none d-sm-inline">My appointments</span>
                         </a>
                     </li>
                 </ul>

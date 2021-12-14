@@ -28,7 +28,7 @@ public class PrivilegeService {
 
         return (Privilege) privilegeRepository.findByType(type)
                 .map((existingPrivilege) -> {
-                    throw new ResourceAlreadyExistsException("privilege already exist");
+                    throw new ResourceAlreadyExistsException("privilege already exists");
                 })
                 .orElseGet(() -> privilegeRepository.save(new Privilege(type)));
     }
